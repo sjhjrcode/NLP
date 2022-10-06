@@ -1,0 +1,1 @@
+{"class":"com.johnsnowlabs.nlp.annotators.ner.crf.NerCrfModel","timestamp":1664563805967,"sparkVersion":"3.2.1","uid":"NER_e98a73d9e4d5","paramMap":{"outputCol":"ner","storageRef":"glove_100d","inputCols":["sentence","token","embeddings"],"includeConfidence":false},"defaultParamMap":{"storageRef":"NER_e98a73d9e4d5","includeConfidence":false,"lazyAnnotator":false}}

@@ -1,0 +1,729 @@
+-DOCSTART- -X -X- - O
+
+
+make Act
+
+
+can Act
+
+
+do Act
+
+
+read Act
+
+
+write Act
+
+
+talk Act
+
+
+want Act
+
+
+cook Act
+
+
+brew Act
+
+
+clean Act
+
+
+brush Act
+
+
+care Act
+
+
+walk Act
+
+
+go Act
+
+
+navigate Act
+
+
+activity Act
+
+
+write Act
+
+
+move Act
+
+
+fall Act
+
+
+up Act
+
+
+down Act
+
+
+hold Act
+
+
+sweep Act
+
+
+backward Act
+
+
+forward Act
+
+
+left Act
+
+
+right Act
+
+
+location Loc
+
+
+kitchen Loc
+
+
+living room Loc
+
+
+bedroom Loc
+
+
+dining room Loc
+
+
+bathroom Loc
+
+
+basement Loc
+
+
+laundry room Loc
+
+
+attic Loc
+
+
+den Loc
+
+
+hallway Loc
+
+
+garage Loc
+
+
+sunroom Loc
+
+
+pantry Loc
+
+
+closet Loc
+
+
+parlor Loc
+
+
+entryway Loc
+
+
+lobby Loc
+
+
+cellar Loc
+
+
+loft Loc
+
+
+nursery Loc
+
+
+coffee Obj
+
+
+food Obj
+
+
+washer Obj
+
+
+dryer Obj
+
+
+stove Obj
+
+
+oven Obj
+
+
+microwave Obj
+
+
+spoon Obj
+
+
+fork Obj
+
+
+knife Obj
+
+
+sofa Obj
+
+
+couch Obj
+
+
+television Obj
+
+
+pillow Obj
+
+
+sheets Obj
+
+
+dresser Obj
+
+
+clothes Obj
+
+
+shirt Obj
+
+
+pants Obj
+
+
+shorts Obj
+
+
+shoes Obj
+
+
+socks Obj
+
+
+hat Obj
+
+
+toilet Obj
+
+
+toothbrush Obj
+
+
+sink Obj
+
+
+pot Obj
+
+
+shower Obj
+
+
+mirror Obj
+
+
+phone Obj
+
+
+glass Obj
+
+
+drawer Obj
+
+
+refrigorator Obj
+
+
+fan Obj
+
+
+air conditioner  Obj
+
+
+table Obj
+
+
+chair Obj
+
+
+pet Obj
+
+
+meal Obj
+
+
+breakfast Obj
+
+
+lunch Obj
+
+
+super  Obj
+
+
+dinner Obj
+
+
+fruit Obj
+
+
+vegetable Obj
+
+
+meat Obj
+
+
+yes Pos
+
+
+correct Pos
+
+
+positive Pos
+
+
+agreed Pos
+
+
+disagree Neg
+
+
+no Neg
+
+
+negative Neg
+
+
+incorrect Neg
+
+
+listen Obj
+
+
+play Obj
+
+
+open Obj
+
+
+close Obj
+
+
+wash Obj
+
+
+Bathe Obj
+
+
+wait Obj
+
+
+watch Obj
+
+
+run Obj
+
+
+use Obj
+
+
+dispose Obj
+
+
+throw away Obj
+
+
+trash Obj
+
+
+take out Obj
+
+
+unthaw Obj
+
+
+create Obj
+
+
+prepare Obj
+
+
+turn off Obj
+
+
+turn on Obj
+
+
+find Obj
+
+
+discover Obj
+
+
+start Obj
+
+
+stop Obj
+
+
+is Obj
+
+
+was Obj
+
+
+were Obj
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+location Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+kitchen Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+living 0
+room 0
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+bedroom Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+dining 0
+room 0
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+bathroom Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+basement Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+laundry 0
+room 0
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+attic Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+den Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+hallway Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+garage Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+sunroom Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+pantry Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+closet Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+parlor Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+entryway Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+lobby Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+cellar Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+loft Loc
+. . O O
+
+
+I 0
+want Act
+to 0
+go Act
+to 0
+the 0
+nursery Loc
+. . O O
+
+
+Navigate 0
+to 0
+location Loc
+. . O O
+
+
+Navigate 0
+to 0
+kitchen Loc
+. . O O
+
+
+Navigate 0
+to 0
+living 0
+room 0
+. . O O
+
+
+Navigate 0
+to 0
+bedroom Loc
+. . O O
+
+
+Navigate 0
+to 0
+dining 0
+room 0
+. . O O
+
+
+Navigate 0
+to 0
+bathroom Loc
+. . O O
+
+
+Navigate 0
+to 0
+basement Loc
+. . O O
+
+
+Navigate 0
+to 0
+laundry 0
+room 0
+. . O O
+
+
+Navigate 0
+to 0
+attic Loc
+. . O O
+
+
+Navigate 0
+to 0
+den Loc
+. . O O
+
+
+Navigate 0
+to 0
+hallway Loc
+. . O O
+
+
+Navigate 0
+to 0
+garage Loc
+. . O O
+
+
+Navigate 0
+to 0
+sunroom Loc
+. . O O
+
+
+Navigate 0
+to 0
+pantry Loc
+. . O O
+
+
+Navigate 0
+to 0
+closet Loc
+. . O O
+
+
+Navigate 0
+to 0
+parlor Loc
+. . O O
+
+
+Navigate 0
+to 0
+entryway Loc
+. . O O
+
+
+Navigate 0
+to 0
+lobby Loc
+. . O O
+
+
+Navigate 0
+to 0
+cellar Loc
+. . O O
+
+
+Navigate 0
+to 0
+loft Loc
+. . O O
+
+
+Navigate 0
+to 0
+nursery Loc
+. . O O
+
+

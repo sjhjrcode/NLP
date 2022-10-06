@@ -1,0 +1,558 @@
+-DOCSTART- -X- -X- O
+
+make 0 0 Act
+
+can 0 0 Act
+
+do 0 0 Act
+
+read 0 0 Act
+
+write 0 0 Act
+
+talk 0 0 Act
+
+want 0 0 Act
+
+cook 0 0 Act
+
+brew 0 0 Act
+
+clean 0 0 Act
+
+brush 0 0 Act
+
+care 0 0 Act
+
+walk 0 0 Act
+
+go 0 0 Act
+
+navigate 0 0 Act
+
+activity 0 0 Act
+
+write 0 0 Act
+
+move 0 0 Act
+
+fall 0 0 Act
+
+up 0 0 Act
+
+down 0 0 Act
+
+hold 0 0 Act
+
+sweep 0 0 Act
+
+backward 0 0 Act
+
+forward 0 0 Act
+
+left 0 0 Act
+
+right 0 0 Act
+
+location 0 0 Loc
+
+kitchen 0 0 Loc
+
+living room 0 0 Loc
+
+bedroom 0 0 Loc
+
+dining room 0 0 Loc
+
+bathroom 0 0 Loc
+
+basement 0 0 Loc
+
+laundry room 0 0 Loc
+
+attic 0 0 Loc
+
+den 0 0 Loc
+
+hallway 0 0 Loc
+
+garage 0 0 Loc
+
+sunroom 0 0 Loc
+
+pantry 0 0 Loc
+
+closet 0 0 Loc
+
+parlor 0 0 Loc
+
+entryway 0 0 Loc
+
+lobby 0 0 Loc
+
+cellar 0 0 Loc
+
+loft 0 0 Loc
+
+nursery 0 0 Loc
+
+coffee 0 0 Obj
+
+food 0 0 Obj
+
+washer 0 0 Obj
+
+dryer 0 0 Obj
+
+stove 0 0 Obj
+
+oven 0 0 Obj
+
+microwave 0 0 Obj
+
+spoon 0 0 Obj
+
+fork 0 0 Obj
+
+knife 0 0 Obj
+
+sofa 0 0 Obj
+
+couch 0 0 Obj
+
+television 0 0 Obj
+
+pillow 0 0 Obj
+
+sheets 0 0 Obj
+
+dresser 0 0 Obj
+
+clothes 0 0 Obj
+
+shirt 0 0 Obj
+
+pants 0 0 Obj
+
+shorts 0 0 Obj
+
+shoes 0 0 Obj
+
+socks 0 0 Obj
+
+hat 0 0 Obj
+
+toilet 0 0 Obj
+
+toothbrush 0 0 Obj
+
+sink 0 0 Obj
+
+pot 0 0 Obj
+
+shower 0 0 Obj
+
+mirror 0 0 Obj
+
+phone 0 0 Obj
+
+glass 0 0 Obj
+
+drawer 0 0 Obj
+
+refrigorator 0 0 Obj
+
+fan 0 0 Obj
+
+air conditioner  0 0 Obj
+
+table 0 0 Obj
+
+chair 0 0 Obj
+
+pet 0 0 Obj
+
+meal 0 0 Obj
+
+breakfast 0 0 Obj
+
+lunch 0 0 Obj
+
+super  0 0 Obj
+
+dinner 0 0 Obj
+
+fruit 0 0 Obj
+
+vegetable 0 0 Obj
+
+meat 0 0 Obj
+
+yes 0 0 Pos
+
+correct 0 0 Pos
+
+positive 0 0 Pos
+
+agreed 0 0 Pos
+
+disagree 0 0 Neg
+
+no 0 0 Neg
+
+negative 0 0 Neg
+
+incorrect 0 0 Neg
+
+listen 0 0 Obj
+
+play 0 0 Obj
+
+open 0 0 Obj
+
+close 0 0 Obj
+
+wash 0 0 Obj
+
+Bathe 0 0 Obj
+
+wait 0 0 Obj
+
+watch 0 0 Obj
+
+run 0 0 Obj
+
+use 0 0 Obj
+
+dispose 0 0 Obj
+
+throw away 0 0 Obj
+
+trash 0 0 Obj
+
+take out 0 0 Obj
+
+unthaw 0 0 Obj
+
+create 0 0 Obj
+
+prepare 0 0 Obj
+
+turn off 0 0 Obj
+
+turn on 0 0 Obj
+
+find 0 0 Obj
+
+discover 0 0 Obj
+
+start 0 0 Obj
+
+stop 0 0 Obj
+
+is 0 0 Obj
+
+was 0 0 Obj
+
+were 0 0 Obj
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+location 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+kitchen 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+living 0 0 0
+room 0 0 0
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bedroom 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bathroom 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+basement 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+attic 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+den 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+hallway 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+garage 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+sunroom 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+pantry 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+closet 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+parlor 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+entryway 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+lobby 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+cellar 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+loft 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+nursery 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+location 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+kitchen 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+living 0 0 0
+room 0 0 0
+. O
+
+Navigate 0 0 0
+to 0 0 0
+bedroom 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
+
+Navigate 0 0 0
+to 0 0 0
+bathroom 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+basement 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
+
+Navigate 0 0 0
+to 0 0 0
+attic 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+den 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+hallway 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+garage 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+sunroom 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+pantry 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+closet 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+parlor 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+entryway 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+lobby 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+cellar 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+loft 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+nursery 0 0 Loc
+. O
+
