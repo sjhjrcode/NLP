@@ -1,0 +1,302 @@
+-DOCSTART- -X- -X- O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+location 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+kitchen 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+living 0 0 0
+room 0 0 0
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bedroom 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bathroom 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+basement 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+attic 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+den 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+hallway 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+garage 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+sunroom 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+pantry 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+closet 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+parlor 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+entryway 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+lobby 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+cellar 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+loft 0 0 Loc
+. O
+
+I 0 0 0
+want 0 0 Act
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+nursery 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+location 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+kitchen 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+living 0 0 0
+room 0 0 0
+. O
+
+Navigate 0 0 0
+to 0 0 0
+bedroom 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
+
+Navigate 0 0 0
+to 0 0 0
+bathroom 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+basement 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
+
+Navigate 0 0 0
+to 0 0 0
+attic 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+den 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+hallway 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+garage 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+sunroom 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+pantry 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+closet 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+parlor 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+entryway 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+lobby 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+cellar 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+loft 0 0 Loc
+. O
+
+Navigate 0 0 0
+to 0 0 0
+nursery 0 0 Loc
+. O
+

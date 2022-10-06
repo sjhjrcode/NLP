@@ -82,3 +82,27 @@ with open('eng_custom.train', 'w') as file:
       
 
     file.writelines("% s\n" % data for data in sentances)
+
+
+
+sentances = ["-DOCSTART- -X- -X- O\n"]
+#file = open("read.txt",'w')
+
+
+
+for w in get:
+    filer = (f"I want to go to the {w}")
+    temp = sentancebreak(filer,sh)
+    adding(sentances,temp)
+for w in get:
+    filer = (f"Navigate to {w}")
+    temp = sentancebreak(filer,sh)
+    sentances=adding(sentances,temp)
+
+
+
+with open('eng_custom.testa', 'w') as file:
+      
+
+    file.writelines("% s\n" % data for data in sentances)
+
