@@ -1,0 +1,1802 @@
+Name of the selected graph: ner-dl/blstm_10_100_128_120.pb
+Training started - total epochs: 100 - lr: 0.003 - batch size: 32 - labels: 7 - chars: 24 - training examples: 130
+
+
+Epoch 1/100 started, lr: 0.003, dataset size: 130
+
+
+Epoch 1/100 - 0.60s - loss: 25.787727 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.16s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 10	 2	 3	 0.8333333	 0.7692308	 0.8
+Act	 14	 14	 7	 0.5	 0.6666667	 0.57142854
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 21	 0	 20	 1.0	 0.5121951	 0.67741936
+Obj	 13	 17	 0	 0.43333334	 1.0	 0.60465115
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 58 fp: 33 fn: 33 labels: 6
+Macro-average	 prec: 0.4611111, rec: 0.49134874, f1: 0.47574997
+Micro-average	 prec: 0.63736266, rec: 0.63736266, f1: 0.63736266
+
+
+Epoch 2/100 started, lr: 0.0029850747, dataset size: 130
+
+
+Epoch 2/100 - 0.07s - loss: 45.169243 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 3	 0	 0.8125	 1.0	 0.8965517
+Act	 16	 35	 5	 0.3137255	 0.7619048	 0.44444445
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 4	 0	 37	 1.0	 0.09756097	 0.17777777
+Obj	 12	 8	 1	 0.6	 0.9230769	 0.72727275
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 45 fp: 46 fn: 46 labels: 6
+Macro-average	 prec: 0.4543709, rec: 0.46375713, f1: 0.45901603
+Micro-average	 prec: 0.4945055, rec: 0.4945055, f1: 0.4945055
+
+
+Epoch 3/100 started, lr: 0.0029702971, dataset size: 130
+
+
+Epoch 3/100 - 0.07s - loss: 13.345603 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 12	 7	 1	 0.6315789	 0.9230769	 0.75000006
+Act	 7	 0	 14	 1.0	 0.33333334	 0.5
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 36	 16	 5	 0.6923077	 0.8780488	 0.7741936
+Obj	 8	 5	 5	 0.61538464	 0.61538464	 0.61538464
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 63 fp: 28 fn: 28 labels: 6
+Macro-average	 prec: 0.48987854, rec: 0.45830727, f1: 0.47356728
+Micro-average	 prec: 0.6923077, rec: 0.6923077, f1: 0.6923077
+
+
+Epoch 4/100 started, lr: 0.002955665, dataset size: 130
+
+
+Epoch 4/100 - 0.08s - loss: 9.788868 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 10	 1	 3	 0.90909094	 0.7692308	 0.8333333
+Act	 7	 0	 14	 1.0	 0.33333334	 0.5
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 40	 28	 1	 0.5882353	 0.9756098	 0.73394495
+Obj	 4	 1	 9	 0.8	 0.30769232	 0.44444445
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 61 fp: 30 fn: 30 labels: 6
+Macro-average	 prec: 0.5495544, rec: 0.39764437, f1: 0.46141785
+Micro-average	 prec: 0.6703297, rec: 0.6703297, f1: 0.6703297
+
+
+Epoch 5/100 started, lr: 0.0029411765, dataset size: 130
+
+
+Epoch 5/100 - 0.07s - loss: 6.64301 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 3	 0	 0.8125	 1.0	 0.8965517
+Act	 14	 7	 7	 0.6666667	 0.6666667	 0.6666667
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 31	 17	 10	 0.6458333	 0.75609756	 0.6966292
+Obj	 5	 1	 8	 0.8333333	 0.3846154	 0.5263158
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 63 fp: 28 fn: 28 labels: 6
+Macro-average	 prec: 0.49305555, rec: 0.4678966, f1: 0.48014674
+Micro-average	 prec: 0.6923077, rec: 0.6923077, f1: 0.6923077
+
+
+Epoch 6/100 started, lr: 0.0029268293, dataset size: 130
+
+
+Epoch 6/100 - 0.08s - loss: 5.504222 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 3	 0	 0.8125	 1.0	 0.8965517
+Act	 15	 0	 6	 1.0	 0.71428573	 0.8333334
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 37	 12	 4	 0.75510204	 0.902439	 0.8222222
+Obj	 8	 3	 5	 0.72727275	 0.61538464	 0.6666667
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 73 fp: 18 fn: 18 labels: 6
+Macro-average	 prec: 0.5491458, rec: 0.5386849, f1: 0.543865
+Micro-average	 prec: 0.8021978, rec: 0.8021978, f1: 0.8021978
+
+
+Epoch 7/100 started, lr: 0.0029126215, dataset size: 130
+
+
+Epoch 7/100 - 0.07s - loss: 4.103247 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 12	 0	 1	 1.0	 0.9230769	 0.96000004
+Act	 14	 0	 7	 1.0	 0.6666667	 0.8
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 9	 3	 0.80851066	 0.9268293	 0.86363643
+Obj	 9	 9	 4	 0.5	 0.6923077	 0.58064514
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 73 fp: 18 fn: 18 labels: 6
+Macro-average	 prec: 0.5514185, rec: 0.53481346, f1: 0.542989
+Micro-average	 prec: 0.8021978, rec: 0.8021978, f1: 0.8021978
+
+
+Epoch 8/100 started, lr: 0.0028985508, dataset size: 130
+
+
+Epoch 8/100 - 0.07s - loss: 3.9534194 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 15	 0	 6	 1.0	 0.71428573	 0.8333334
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 4	 3	 0.9047619	 0.9268293	 0.91566265
+Obj	 11	 9	 2	 0.55	 0.84615386	 0.6666666
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.5638889, rec: 0.5812115, f1: 0.5724192
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 9/100 started, lr: 0.0028846154, dataset size: 130
+
+
+Epoch 9/100 - 0.08s - loss: 3.021753 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 14	 0	 7	 1.0	 0.6666667	 0.8
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 3	 3	 0.9268293	 0.9268293	 0.9268293
+Obj	 12	 10	 1	 0.54545456	 0.9230769	 0.6857143
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.56680924, rec: 0.5860955, f1: 0.576291
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 10/100 started, lr: 0.0028708135, dataset size: 130
+
+
+Epoch 10/100 - 0.07s - loss: 2.464854 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 10	 9	 3	 0.5263158	 0.7692308	 0.62500006
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.5452252, rec: 0.5763275, f1: 0.56034505
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 11/100 started, lr: 0.002857143, dataset size: 130
+
+
+Epoch 11/100 - 0.08s - loss: 2.0769994 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 3	 3	 0.9268293	 0.9268293	 0.9268293
+Obj	 9	 6	 4	 0.6	 0.6923077	 0.6428572
+Pos	 0	 0	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.5441541, rec: 0.5714435, f1: 0.557465
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 12/100 started, lr: 0.002843602, dataset size: 130
+
+
+Epoch 12/100 - 0.07s - loss: 1.7246207 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 9	 6	 4	 0.6	 0.6923077	 0.6428572
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5601239, rec: 0.57550853, f1: 0.567712
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 13/100 started, lr: 0.002830189, dataset size: 130
+
+
+Epoch 13/100 - 0.07s - loss: 1.3836409 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 6	 4	 0.6	 0.6923077	 0.6428572
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.56408733, rec: 0.57550853, f1: 0.5697407
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 14/100 started, lr: 0.0028169013, dataset size: 130
+
+
+Epoch 14/100 - 0.07s - loss: 1.4065363 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 9	 7	 4	 0.5625	 0.6923077	 0.62068963
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.5577305, rec: 0.5714435, f1: 0.5645037
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 15/100 started, lr: 0.0028037382, dataset size: 130
+
+
+Epoch 15/100 - 0.07s - loss: 0.9012612 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 9	 7	 4	 0.5625	 0.6923077	 0.62068963
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.5577305, rec: 0.5714435, f1: 0.5645037
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 16/100 started, lr: 0.0027906976, dataset size: 130
+
+
+Epoch 16/100 - 0.07s - loss: 0.95395404 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.574121, rec: 0.5970845, f1: 0.58537763
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 17/100 started, lr: 0.0027777776, dataset size: 130
+
+
+Epoch 17/100 - 0.07s - loss: 0.76799387 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.574121, rec: 0.5970845, f1: 0.58537763
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 18/100 started, lr: 0.0027649768, dataset size: 130
+
+
+Epoch 18/100 - 0.07s - loss: 0.98292476 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.574121, rec: 0.5970845, f1: 0.58537763
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 19/100 started, lr: 0.0027522936, dataset size: 130
+
+
+Epoch 19/100 - 0.07s - loss: 0.5458718 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 7	 2	 0.6111111	 0.84615386	 0.70967746
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5800345, rec: 0.5970845, f1: 0.58843607
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 20/100 started, lr: 0.0027397259, dataset size: 130
+
+
+Epoch 20/100 - 0.07s - loss: 0.58542603 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5734051, rec: 0.5970845, f1: 0.58500534
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 21/100 started, lr: 0.0027272727, dataset size: 130
+
+
+Epoch 21/100 - 0.07s - loss: 0.43847325 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5734051, rec: 0.5970845, f1: 0.58500534
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 22/100 started, lr: 0.0027149322, dataset size: 130
+
+
+Epoch 22/100 - 0.07s - loss: 0.31561926 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57856965, rec: 0.5970845, f1: 0.5876813
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 23/100 started, lr: 0.0027027028, dataset size: 130
+
+
+Epoch 23/100 - 0.08s - loss: 0.3362961 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 7	 2	 0.6111111	 0.84615386	 0.70967746
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5800345, rec: 0.5970845, f1: 0.58843607
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 24/100 started, lr: 0.002690583, dataset size: 130
+
+
+Epoch 24/100 - 0.07s - loss: 0.48600763 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57798105, rec: 0.588329, f1: 0.58310914
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 25/100 started, lr: 0.0026785715, dataset size: 130
+
+
+Epoch 25/100 - 0.07s - loss: 0.22964357 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57798105, rec: 0.588329, f1: 0.58310914
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 26/100 started, lr: 0.0026666666, dataset size: 130
+
+
+Epoch 26/100 - 0.07s - loss: 0.23092502 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57798105, rec: 0.588329, f1: 0.58310914
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 27/100 started, lr: 0.0026548672, dataset size: 130
+
+
+Epoch 27/100 - 0.07s - loss: 0.15079997 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 2	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 8	 5	 5	 0.61538464	 0.61538464	 0.61538464
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.562688, rec: 0.562688, f1: 0.562688
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 28/100 started, lr: 0.002643172, dataset size: 130
+
+
+Epoch 28/100 - 0.07s - loss: 0.10319493 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 2	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 8	 5	 5	 0.61538464	 0.61538464	 0.61538464
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.562688, rec: 0.562688, f1: 0.562688
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 29/100 started, lr: 0.002631579, dataset size: 130
+
+
+Epoch 29/100 - 0.07s - loss: 0.09680966 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57798105, rec: 0.588329, f1: 0.58310914
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 30/100 started, lr: 0.0026200875, dataset size: 130
+
+
+Epoch 30/100 - 0.07s - loss: 0.097573884 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57798105, rec: 0.588329, f1: 0.58310914
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 31/100 started, lr: 0.0026086958, dataset size: 130
+
+
+Epoch 31/100 - 0.07s - loss: 0.09642284 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57798105, rec: 0.588329, f1: 0.58310914
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 32/100 started, lr: 0.0025974028, dataset size: 130
+
+
+Epoch 32/100 - 0.07s - loss: 0.1605155 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5861326, rec: 0.60114956, f1: 0.5935461
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 33/100 started, lr: 0.002586207, dataset size: 130
+
+
+Epoch 33/100 - 0.07s - loss: 0.09881171 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5861326, rec: 0.60114956, f1: 0.5935461
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 34/100 started, lr: 0.0025751074, dataset size: 130
+
+
+Epoch 34/100 - 0.07s - loss: 0.23040937 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 2	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.57401276, rec: 0.57550853, f1: 0.57475966
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 35/100 started, lr: 0.0025641026, dataset size: 130
+
+
+Epoch 35/100 - 0.07s - loss: 0.06412038 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 2	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 8	 5	 5	 0.61538464	 0.61538464	 0.61538464
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.562688, rec: 0.562688, f1: 0.562688
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 36/100 started, lr: 0.0025531915, dataset size: 130
+
+
+Epoch 36/100 - 0.08s - loss: 0.07875187 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 2	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 8	 5	 5	 0.61538464	 0.61538464	 0.61538464
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.562688, rec: 0.562688, f1: 0.562688
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 37/100 started, lr: 0.002542373, dataset size: 130
+
+
+Epoch 37/100 - 0.07s - loss: 0.071271546 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 2	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5712302, rec: 0.57550853, f1: 0.57336134
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 38/100 started, lr: 0.0025316458, dataset size: 130
+
+
+Epoch 38/100 - 0.07s - loss: 0.04469692 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 39/100 started, lr: 0.0025210083, dataset size: 130
+
+
+Epoch 39/100 - 0.07s - loss: 0.09157281 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 40/100 started, lr: 0.0025104603, dataset size: 130
+
+
+Epoch 40/100 - 0.07s - loss: 0.08189144 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 41/100 started, lr: 0.0025, dataset size: 130
+
+
+Epoch 41/100 - 0.07s - loss: 0.034283463 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 2	 4	 0.8947368	 0.8095238	 0.85
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5861326, rec: 0.60114956, f1: 0.5935461
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 42/100 started, lr: 0.0024896264, dataset size: 130
+
+
+Epoch 42/100 - 0.07s - loss: 0.07788684 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 43/100 started, lr: 0.0024793388, dataset size: 130
+
+
+Epoch 43/100 - 0.07s - loss: 0.030956924 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 44/100 started, lr: 0.0024691357, dataset size: 130
+
+
+Epoch 44/100 - 0.07s - loss: 0.023838434 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 45/100 started, lr: 0.0024590164, dataset size: 130
+
+
+Epoch 45/100 - 0.07s - loss: 0.032545663 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 46/100 started, lr: 0.0024489795, dataset size: 130
+
+
+Epoch 46/100 - 0.07s - loss: 0.020565357 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 47/100 started, lr: 0.0024390244, dataset size: 130
+
+
+Epoch 47/100 - 0.07s - loss: 0.015994623 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 48/100 started, lr: 0.0024291498, dataset size: 130
+
+
+Epoch 48/100 - 0.07s - loss: 0.042120337 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5854167, rec: 0.60114956, f1: 0.5931788
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 49/100 started, lr: 0.0024193549, dataset size: 130
+
+
+Epoch 49/100 - 0.07s - loss: 0.045176677 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 50/100 started, lr: 0.0024096386, dataset size: 130
+
+
+Epoch 50/100 - 0.07s - loss: 0.027113074 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 51/100 started, lr: 0.0024, dataset size: 130
+
+
+Epoch 51/100 - 0.07s - loss: 0.01638048 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 52/100 started, lr: 0.0023904382, dataset size: 130
+
+
+Epoch 52/100 - 0.07s - loss: 0.01847281 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 53/100 started, lr: 0.0023809525, dataset size: 130
+
+
+Epoch 53/100 - 0.07s - loss: 0.051251117 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 54/100 started, lr: 0.0023715415, dataset size: 130
+
+
+Epoch 54/100 - 0.07s - loss: 0.018569238 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 55/100 started, lr: 0.0023622047, dataset size: 130
+
+
+Epoch 55/100 - 0.07s - loss: 0.06285713 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 56/100 started, lr: 0.0023529413, dataset size: 130
+
+
+Epoch 56/100 - 0.07s - loss: 0.033132184 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 57/100 started, lr: 0.00234375, dataset size: 130
+
+
+Epoch 57/100 - 0.07s - loss: 0.008753097 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 58/100 started, lr: 0.0023346303, dataset size: 130
+
+
+Epoch 58/100 - 0.07s - loss: 0.008334772 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5751985, rec: 0.588329, f1: 0.58168966
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 59/100 started, lr: 0.0023255814, dataset size: 130
+
+
+Epoch 59/100 - 0.08s - loss: 0.05880758 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 60/100 started, lr: 0.0023166025, dataset size: 130
+
+
+Epoch 60/100 - 0.07s - loss: 0.0315895 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 61/100 started, lr: 0.0023076923, dataset size: 130
+
+
+Epoch 61/100 - 0.07s - loss: 0.029711736 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5696477, rec: 0.58039254, f1: 0.57496995
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 62/100 started, lr: 0.0022988506, dataset size: 130
+
+
+Epoch 62/100 - 0.07s - loss: 0.015320482 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.58013743, rec: 0.593213, f1: 0.5866024
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 63/100 started, lr: 0.0022900763, dataset size: 130
+
+
+Epoch 63/100 - 0.07s - loss: 0.028609265 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.58013743, rec: 0.593213, f1: 0.5866024
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 64/100 started, lr: 0.0022813687, dataset size: 130
+
+
+Epoch 64/100 - 0.07s - loss: 0.03643983 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.58013743, rec: 0.593213, f1: 0.5866024
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 65/100 started, lr: 0.0022727274, dataset size: 130
+
+
+Epoch 65/100 - 0.07s - loss: 0.030184727 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.58013743, rec: 0.593213, f1: 0.5866024
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 66/100 started, lr: 0.002264151, dataset size: 130
+
+
+Epoch 66/100 - 0.07s - loss: 0.008002266 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57311994, rec: 0.593213, f1: 0.5829934
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 67/100 started, lr: 0.0022556393, dataset size: 130
+
+
+Epoch 67/100 - 0.07s - loss: 0.015809443 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57311994, rec: 0.593213, f1: 0.5829934
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 68/100 started, lr: 0.002247191, dataset size: 130
+
+
+Epoch 68/100 - 0.07s - loss: 0.054256704 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57311994, rec: 0.593213, f1: 0.5829934
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 69/100 started, lr: 0.0022388059, dataset size: 130
+
+
+Epoch 69/100 - 0.07s - loss: 0.03137722 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 2	 3	 0.95	 0.9268293	 0.9382716
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.56128925, rec: 0.589148, f1: 0.5748813
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 70/100 started, lr: 0.0022304833, dataset size: 130
+
+
+Epoch 70/100 - 0.07s - loss: 0.004911676 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5666649, rec: 0.5970845, f1: 0.5814771
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 71/100 started, lr: 0.0022222223, dataset size: 130
+
+
+Epoch 71/100 - 0.07s - loss: 0.02847706 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5666649, rec: 0.5970845, f1: 0.5814771
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 72/100 started, lr: 0.0022140222, dataset size: 130
+
+
+Epoch 72/100 - 0.07s - loss: 0.011985011 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5666649, rec: 0.5970845, f1: 0.5814771
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 73/100 started, lr: 0.0022058825, dataset size: 130
+
+
+Epoch 73/100 - 0.07s - loss: 0.0043294607 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5666649, rec: 0.5970845, f1: 0.5814771
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 74/100 started, lr: 0.0021978023, dataset size: 130
+
+
+Epoch 74/100 - 0.07s - loss: 0.03008689 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 1	 0	 0.9285714	 1.0	 0.9629629
+Act	 17	 3	 4	 0.85	 0.8095238	 0.82926834
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 38	 1	 3	 0.974359	 0.9268293	 0.95
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5666649, rec: 0.5970845, f1: 0.5814771
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 75/100 started, lr: 0.002189781, dataset size: 130
+
+
+Epoch 75/100 - 0.07s - loss: 0.007793634 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5786707, rec: 0.60114956, f1: 0.589696
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 76/100 started, lr: 0.0021818182, dataset size: 130
+
+
+Epoch 76/100 - 0.07s - loss: 0.0068310965 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 77/100 started, lr: 0.0021739132, dataset size: 130
+
+
+Epoch 77/100 - 0.07s - loss: 0.0072655766 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 5	 4	 0.77272725	 0.8095238	 0.79069763
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5650974, rec: 0.57550853, f1: 0.57025546
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 78/100 started, lr: 0.002166065, dataset size: 130
+
+
+Epoch 78/100 - 0.08s - loss: 0.01685859 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5786707, rec: 0.60114956, f1: 0.589696
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 79/100 started, lr: 0.0021582735, dataset size: 130
+
+
+Epoch 79/100 - 0.07s - loss: 0.006379481 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 17	 4	 4	 0.8095238	 0.8095238	 0.8095238
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5786707, rec: 0.60114956, f1: 0.589696
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 80/100 started, lr: 0.0021505377, dataset size: 130
+
+
+Epoch 80/100 - 0.07s - loss: 0.05807551 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 2	 5	 0.8888889	 0.7619048	 0.82051283
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5811946, rec: 0.593213, f1: 0.5871423
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 81/100 started, lr: 0.0021428573, dataset size: 130
+
+
+Epoch 81/100 - 0.07s - loss: 0.017700221 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 2	 5	 0.8888889	 0.7619048	 0.82051283
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5811946, rec: 0.593213, f1: 0.5871423
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 82/100 started, lr: 0.0021352314, dataset size: 130
+
+
+Epoch 82/100 - 0.07s - loss: 0.0065599196 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 2	 5	 0.8888889	 0.7619048	 0.82051283
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5811946, rec: 0.593213, f1: 0.5871423
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 83/100 started, lr: 0.0021276597, dataset size: 130
+
+
+Epoch 83/100 - 0.07s - loss: 0.012106251 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 11	 6	 2	 0.64705884	 0.84615386	 0.73333335
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5733972, rec: 0.593213, f1: 0.5831368
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 84/100 started, lr: 0.0021201414, dataset size: 130
+
+
+Epoch 84/100 - 0.07s - loss: 0.034616806 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 2	 2	 0.9512195	 0.9512195	 0.9512195
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 2	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.5696477, rec: 0.58039254, f1: 0.57496995
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 85/100 started, lr: 0.0021126762, dataset size: 130
+
+
+Epoch 85/100 - 0.07s - loss: 0.01426797 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 8	 5	 0.6666667	 0.7619048	 0.7111111
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 7	 5	 6	 0.5833333	 0.53846157	 0.55999994
+Pos	 0	 2	 2	 0.0	 0.0	 0.0
+tp: 75 fp: 16 fn: 16 labels: 6
+Macro-average	 prec: 0.5375, rec: 0.541931, f1: 0.53970635
+Micro-average	 prec: 0.82417583, rec: 0.82417583, f1: 0.82417583
+
+
+Epoch 86/100 started, lr: 0.0021052633, dataset size: 130
+
+
+Epoch 86/100 - 0.07s - loss: 0.017772242 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 8	 5	 0.6666667	 0.7619048	 0.7111111
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 7	 5	 6	 0.5833333	 0.53846157	 0.55999994
+Pos	 0	 2	 2	 0.0	 0.0	 0.0
+tp: 75 fp: 16 fn: 16 labels: 6
+Macro-average	 prec: 0.5375, rec: 0.541931, f1: 0.53970635
+Micro-average	 prec: 0.82417583, rec: 0.82417583, f1: 0.82417583
+
+
+Epoch 87/100 started, lr: 0.0020979021, dataset size: 130
+
+
+Epoch 87/100 - 0.07s - loss: 0.028022652 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 7	 5	 0.6956522	 0.7619048	 0.72727275
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 77 fp: 14 fn: 14 labels: 6
+Macro-average	 prec: 0.5522516, rec: 0.567572, f1: 0.559807
+Micro-average	 prec: 0.84615386, rec: 0.84615386, f1: 0.84615386
+
+
+Epoch 88/100 started, lr: 0.0020905924, dataset size: 130
+
+
+Epoch 88/100 - 0.07s - loss: 0.013858639 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 6	 5	 0.72727275	 0.7619048	 0.74418604
+Neg	 0	 0	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.56148994, rec: 0.58039254, f1: 0.5707848
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 89/100 started, lr: 0.0020833332, dataset size: 130
+
+
+Epoch 89/100 - 0.07s - loss: 0.029641515 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57371277, rec: 0.5844576, f1: 0.57903534
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 90/100 started, lr: 0.0020761248, dataset size: 130
+
+
+Epoch 90/100 - 0.07s - loss: 0.007585004 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57371277, rec: 0.5844576, f1: 0.57903534
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 91/100 started, lr: 0.0020689655, dataset size: 130
+
+
+Epoch 91/100 - 0.07s - loss: 0.008520329 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5842025, rec: 0.59727806, f1: 0.5906679
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 92/100 started, lr: 0.0020618557, dataset size: 130
+
+
+Epoch 92/100 - 0.07s - loss: 0.010244077 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5842025, rec: 0.59727806, f1: 0.5906679
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 93/100 started, lr: 0.0020547945, dataset size: 130
+
+
+Epoch 93/100 - 0.07s - loss: 0.017036421 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5842025, rec: 0.59727806, f1: 0.5906679
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 94/100 started, lr: 0.0020477816, dataset size: 130
+
+
+Epoch 94/100 - 0.07s - loss: 0.010779299 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 80 fp: 11 fn: 11 labels: 6
+Macro-average	 prec: 0.5842025, rec: 0.59727806, f1: 0.5906679
+Micro-average	 prec: 0.8791209, rec: 0.8791209, f1: 0.8791209
+
+
+Epoch 95/100 started, lr: 0.0020408162, dataset size: 130
+
+
+Epoch 95/100 - 0.07s - loss: 0.0104423985 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 39	 1	 2	 0.975	 0.9512195	 0.962963
+Obj	 11	 5	 2	 0.6875	 0.84615386	 0.7586207
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57708335, rec: 0.593213, f1: 0.585037
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 96/100 started, lr: 0.0020338984, dataset size: 130
+
+
+Epoch 96/100 - 0.07s - loss: 0.0070611946 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57371277, rec: 0.5844576, f1: 0.57903534
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 97/100 started, lr: 0.002027027, dataset size: 130
+
+
+Epoch 97/100 - 0.07s - loss: 0.016851908 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 4	 5	 0.8	 0.7619048	 0.78048784
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 1	 1	 0.9756098	 0.9756098	 0.9756098
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.57371277, rec: 0.5844576, f1: 0.57903534
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
+
+
+Epoch 98/100 started, lr: 0.002020202, dataset size: 130
+
+
+Epoch 98/100 - 0.07s - loss: 0.010132291 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 3	 1	 0.9302326	 0.9756098	 0.952381
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.56919914, rec: 0.57163703, f1: 0.5704155
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 99/100 started, lr: 0.0020134228, dataset size: 130
+
+
+Epoch 99/100 - 0.07s - loss: 0.015448565 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 3	 5	 0.84210527	 0.7619048	 0.79999995
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 3	 1	 0.9302326	 0.9756098	 0.952381
+Obj	 9	 5	 4	 0.64285713	 0.6923077	 0.6666667
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 78 fp: 13 fn: 13 labels: 6
+Macro-average	 prec: 0.56919914, rec: 0.57163703, f1: 0.5704155
+Micro-average	 prec: 0.85714287, rec: 0.85714287, f1: 0.85714287
+
+
+Epoch 100/100 started, lr: 0.002006689, dataset size: 130
+
+
+Epoch 100/100 - 0.07s - loss: 0.030532015 - batches: 5
+Quality on validation dataset (20.0%), validation examples = 26
+time to finish evaluation: 0.01s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+Loc	 13	 0	 0	 1.0	 1.0	 1.0
+Act	 16	 2	 5	 0.8888889	 0.7619048	 0.82051283
+Neg	 0	 1	 1	 0.0	 0.0	 0.0
+0	 40	 3	 1	 0.9302326	 0.9756098	 0.952381
+Obj	 10	 5	 3	 0.6666667	 0.7692308	 0.71428573
+Pos	 0	 1	 2	 0.0	 0.0	 0.0
+tp: 79 fp: 12 fn: 12 labels: 6
+Macro-average	 prec: 0.5809647, rec: 0.5844576, f1: 0.5827059
+Micro-average	 prec: 0.8681319, rec: 0.8681319, f1: 0.8681319
