@@ -64,6 +64,10 @@ def print_labels(text, custom_pipeline):
     results = light.annotate(text)
     print(results)
     print(results['ner'])
+    for i in results['ner']:
+        print(i)
+    #for j in results['entities']:
+    #    print(j)
 
 loaded_pipeline = load_model()
-print_labels("go to kitchen",loaded_pipeline)
+print_labels("where am I",loaded_pipeline)
