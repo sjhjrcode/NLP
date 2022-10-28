@@ -59,23 +59,118 @@ for i in range(1,sh.max_column+1):
 sentances = ["-DOCSTART- -X- -X- O\n"]
 #file = open("read.txt",'w')
 
-for i in range(1,sh.max_row+1):
-    keyword = sh.cell(row=i,column=1).value
-    for j in range(1,sh.max_column+1):
-        one = sh.cell(row=i,column=j).value
-        if(one == 1):
-            sentances.append(keyword+" 0 0 "+sh.cell(row=1,column=j).value+"\n")
-            break
+#for i in range(1,sh.max_row+1):
+#    keyword = sh.cell(row=i,column=1).value
+#    for j in range(1,sh.max_column+1):
+#        one = sh.cell(row=i,column=j).value
+#        if(one == 1):
+#            sentances.append(keyword+" 0 0 "+sh.cell(row=1,column=j).value+"\n")
+#            break
 
 for w in get:
-    filer = (f"I want to go to the {w}")
+    filer = (f"i want to go to the {w}")
     temp = sentancebreak(filer,sh)
     adding(sentances,temp)
 for w in get:
-    filer = (f"Navigate to {w}")
+    filer = (f"navigate to {w}")
     temp = sentancebreak(filer,sh)
     sentances=adding(sentances,temp)
 
+filer = (f"i want to make coffee")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"where am i")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"what can i do here")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+for w in get:
+    filer = (f"hello i want to go to the {w}")
+    temp = sentancebreak(filer,sh)
+    adding(sentances,temp)
+for w in get:
+    filer = (f"hello navigate to {w}")
+    temp = sentancebreak(filer,sh)
+    sentances=adding(sentances,temp)
+
+filer = (f"hello i want to make coffee")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello where am i")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello what can i do here")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"prepare meal")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"use refrigerator")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"use fan")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"use oven")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"use stove")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello i would like to wash sheets")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello i would like to watch television")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello wash sheets")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+
+filer = (f"hello wash clothes")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+
+filer = (f"hello cook dinner")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello i would like to cook dinner")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello make food")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello i want to read a book")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+
+
+filer = (f"yes")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"no")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"correct")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"incorrect")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"positive")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"negative")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+
+filer = (f"hello what can i do here")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"where is the coffee")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
 
 
 with open('eng_custom.train', 'w') as file:
@@ -91,14 +186,29 @@ sentances = ["-DOCSTART- -X- -X- O\n"]
 
 
 for w in get:
-    filer = (f"I want to go to the {w}")
+    filer = (f"i want to go to the {w}")
     temp = sentancebreak(filer,sh)
     adding(sentances,temp)
 for w in get:
-    filer = (f"Navigate to {w}")
+    filer = (f"navigate to {w}")
     temp = sentancebreak(filer,sh)
     sentances=adding(sentances,temp)
 
+filer = (f"hello i want to make coffee")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello where am i")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"hello what can i do here")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"prepare meal")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"use refrigerator")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
 
 
 with open('eng_custom.testa', 'w') as file:

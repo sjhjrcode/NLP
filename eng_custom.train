@@ -1,558 +1,853 @@
 -DOCSTART- -X- -X- O
 
-make 0 0 Act
-
-can 0 0 Act
-
-do 0 0 Act
-
-read 0 0 Act
-
-write 0 0 Act
-
-talk 0 0 Act
-
-want 0 0 Act
-
-cook 0 0 Act
-
-brew 0 0 Act
-
-clean 0 0 Act
-
-brush 0 0 Act
-
-care 0 0 Act
-
-walk 0 0 Act
-
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
 go 0 0 Act
+to 0 0 0
+the 0 0 0
+location 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+kitchen 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+living 0 0 0
+room 0 0 0
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bedroom 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bathroom 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+basement 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+attic 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+den 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+hallway 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+garage 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+sunroom 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+pantry 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+closet 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+parlor 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+entryway 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+lobby 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+cellar 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+loft 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+nursery 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+am 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+here 0 0 Loc
+. O
 
 navigate 0 0 Act
-
-activity 0 0 Act
-
-write 0 0 Act
-
-move 0 0 Act
-
-fall 0 0 Act
-
-up 0 0 Act
-
-down 0 0 Act
-
-hold 0 0 Act
-
-sweep 0 0 Act
-
-backward 0 0 Act
-
-forward 0 0 Act
-
-left 0 0 Act
-
-right 0 0 Act
-
+to 0 0 0
 location 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 kitchen 0 0 Loc
+. O
 
-living room 0 0 Loc
+navigate 0 0 Act
+to 0 0 0
+living 0 0 0
+room 0 0 0
+. O
 
+navigate 0 0 Act
+to 0 0 0
 bedroom 0 0 Loc
+. O
 
-dining room 0 0 Loc
+navigate 0 0 Act
+to 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
 
+navigate 0 0 Act
+to 0 0 0
 bathroom 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 basement 0 0 Loc
+. O
 
-laundry room 0 0 Loc
+navigate 0 0 Act
+to 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
 
+navigate 0 0 Act
+to 0 0 0
 attic 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 den 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 hallway 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 garage 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 sunroom 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 pantry 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 closet 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 parlor 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 entryway 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 lobby 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 cellar 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 loft 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
 nursery 0 0 Loc
+. O
 
+navigate 0 0 Act
+to 0 0 0
+am 0 0 Loc
+. O
+
+navigate 0 0 Act
+to 0 0 0
+here 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+make 0 0 Act
 coffee 0 0 Obj
+. O
 
-food 0 0 Obj
+where 0 0 Rqt
+am 0 0 Loc
+i 0 0 0
+. O
 
-washer 0 0 Obj
+what 0 0 Rqt
+can 0 0 Rqt
+i 0 0 0
+do 0 0 Act
+here 0 0 Loc
+. O
 
-dryer 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+location 0 0 Loc
+. O
 
-stove 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+kitchen 0 0 Loc
+. O
 
-oven 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+living 0 0 0
+room 0 0 0
+. O
 
-microwave 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bedroom 0 0 Loc
+. O
 
-spoon 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
 
-fork 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+bathroom 0 0 Loc
+. O
 
-knife 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+basement 0 0 Loc
+. O
 
-sofa 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
 
-couch 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+attic 0 0 Loc
+. O
 
-television 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+den 0 0 Loc
+. O
 
-pillow 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+hallway 0 0 Loc
+. O
 
-sheets 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+garage 0 0 Loc
+. O
 
-dresser 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+sunroom 0 0 Loc
+. O
 
-clothes 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+pantry 0 0 Loc
+. O
 
-shirt 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+closet 0 0 Loc
+. O
 
-pants 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+parlor 0 0 Loc
+. O
 
-shorts 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+entryway 0 0 Loc
+. O
 
-shoes 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+lobby 0 0 Loc
+. O
 
-socks 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+cellar 0 0 Loc
+. O
 
-hat 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+loft 0 0 Loc
+. O
 
-toilet 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+nursery 0 0 Loc
+. O
 
-toothbrush 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+am 0 0 Loc
+. O
 
-sink 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+here 0 0 Loc
+. O
 
-pot 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+location 0 0 Loc
+. O
 
-shower 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+kitchen 0 0 Loc
+. O
 
-mirror 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+living 0 0 0
+room 0 0 0
+. O
 
-phone 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+bedroom 0 0 Loc
+. O
 
-glass 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+dining 0 0 0
+room 0 0 0
+. O
 
-drawer 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+bathroom 0 0 Loc
+. O
 
-refrigorator 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+basement 0 0 Loc
+. O
 
-fan 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+laundry 0 0 0
+room 0 0 0
+. O
 
-air conditioner  0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+attic 0 0 Loc
+. O
 
-table 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+den 0 0 Loc
+. O
 
-chair 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+hallway 0 0 Loc
+. O
 
-pet 0 0 Obj
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+garage 0 0 Loc
+. O
 
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+sunroom 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+pantry 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+closet 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+parlor 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+entryway 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+lobby 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+cellar 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+loft 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+nursery 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+am 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+here 0 0 Loc
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+make 0 0 Act
+coffee 0 0 Obj
+. O
+
+hello 0 0 Trigger
+where 0 0 Rqt
+am 0 0 Loc
+i 0 0 0
+. O
+
+hello 0 0 Trigger
+what 0 0 Rqt
+can 0 0 Rqt
+i 0 0 0
+do 0 0 Act
+here 0 0 Loc
+. O
+
+prepare 0 0 Act
 meal 0 0 Obj
+. O
 
-breakfast 0 0 Obj
+use 0 0 Act
+refrigerator 0 0 Obj
+. O
 
-lunch 0 0 Obj
+use 0 0 Act
+fan 0 0 Obj
+. O
 
-super  0 0 Obj
+use 0 0 Act
+oven 0 0 Obj
+. O
 
+use 0 0 Act
+stove 0 0 Obj
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+would 0 0 0
+like 0 0 0
+to 0 0 0
+wash 0 0 Act
+sheets 0 0 Obj
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+would 0 0 0
+like 0 0 0
+to 0 0 0
+watch 0 0 Act
+television 0 0 Obj
+. O
+
+hello 0 0 Trigger
+wash 0 0 Act
+sheets 0 0 Obj
+. O
+
+hello 0 0 Trigger
+wash 0 0 Act
+clothes 0 0 Obj
+. O
+
+hello 0 0 Trigger
+cook 0 0 Act
 dinner 0 0 Obj
+. O
 
-fruit 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+would 0 0 0
+like 0 0 0
+to 0 0 0
+cook 0 0 Act
+dinner 0 0 Obj
+. O
 
-vegetable 0 0 Obj
+hello 0 0 Trigger
+make 0 0 Act
+food 0 0 Obj
+. O
 
-meat 0 0 Obj
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+read 0 0 Act
+a 0 0 0
+book 0 0 0
+. O
 
 yes 0 0 Pos
-
-correct 0 0 Pos
-
-positive 0 0 Pos
-
-agreed 0 0 Pos
-
-disagree 0 0 Neg
+. O
 
 no 0 0 Neg
+. O
 
-negative 0 0 Neg
+correct 0 0 Pos
+. O
 
 incorrect 0 0 Neg
+. O
 
-listen 0 0 Obj
+positive 0 0 Pos
+. O
 
-play 0 0 Obj
+negative 0 0 Neg
+. O
 
-open 0 0 Obj
+hello 0 0 Trigger
+what 0 0 Rqt
+can 0 0 Rqt
+i 0 0 0
+do 0 0 Act
+here 0 0 Loc
+. O
 
-close 0 0 Obj
-
-wash 0 0 Obj
-
-Bathe 0 0 Obj
-
-wait 0 0 Obj
-
-watch 0 0 Obj
-
-run 0 0 Obj
-
-use 0 0 Obj
-
-dispose 0 0 Obj
-
-throw away 0 0 Obj
-
-trash 0 0 Obj
-
-take out 0 0 Obj
-
-unthaw 0 0 Obj
-
-create 0 0 Obj
-
-prepare 0 0 Obj
-
-turn off 0 0 Obj
-
-turn on 0 0 Obj
-
-find 0 0 Obj
-
-discover 0 0 Obj
-
-start 0 0 Obj
-
-stop 0 0 Obj
-
-is 0 0 Obj
-
-was 0 0 Obj
-
-were 0 0 Obj
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
+where 0 0 Rqt
+is 0 0 Rqt
 the 0 0 0
-location 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-kitchen 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-living 0 0 0
-room 0 0 0
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-bedroom 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-dining 0 0 0
-room 0 0 0
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-bathroom 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-basement 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-laundry 0 0 0
-room 0 0 0
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-attic 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-den 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-hallway 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-garage 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-sunroom 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-pantry 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-closet 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-parlor 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-entryway 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-lobby 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-cellar 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-loft 0 0 Loc
-. O
-
-I 0 0 0
-want 0 0 Act
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-nursery 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-location 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-kitchen 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-living 0 0 0
-room 0 0 0
-. O
-
-Navigate 0 0 0
-to 0 0 0
-bedroom 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-dining 0 0 0
-room 0 0 0
-. O
-
-Navigate 0 0 0
-to 0 0 0
-bathroom 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-basement 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-laundry 0 0 0
-room 0 0 0
-. O
-
-Navigate 0 0 0
-to 0 0 0
-attic 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-den 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-hallway 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-garage 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-sunroom 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-pantry 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-closet 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-parlor 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-entryway 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-lobby 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-cellar 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-loft 0 0 Loc
-. O
-
-Navigate 0 0 0
-to 0 0 0
-nursery 0 0 Loc
+coffee 0 0 Obj
 . O
 

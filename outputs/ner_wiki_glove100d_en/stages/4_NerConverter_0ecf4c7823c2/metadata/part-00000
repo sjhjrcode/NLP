@@ -1,1 +1,0 @@
-{"class":"com.johnsnowlabs.nlp.annotators.ner.NerConverter","timestamp":1665710126285,"sparkVersion":"3.0.2","uid":"NerConverter_0ecf4c7823c2","paramMap":{"inputCols":["document","token","ner"],"outputCol":"ner_chunk"},"defaultParamMap":{"lazyAnnotator":false,"preservePosition":true}}

@@ -1,7 +1,7 @@
 -DOCSTART- -X- -X- O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -9,8 +9,8 @@ the 0 0 0
 location 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -18,8 +18,8 @@ the 0 0 0
 kitchen 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -28,8 +28,8 @@ living 0 0 0
 room 0 0 0
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -37,8 +37,8 @@ the 0 0 0
 bedroom 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -47,8 +47,8 @@ dining 0 0 0
 room 0 0 0
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -56,8 +56,8 @@ the 0 0 0
 bathroom 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -65,8 +65,8 @@ the 0 0 0
 basement 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -75,8 +75,8 @@ laundry 0 0 0
 room 0 0 0
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -84,8 +84,8 @@ the 0 0 0
 attic 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -93,8 +93,8 @@ the 0 0 0
 den 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -102,8 +102,8 @@ the 0 0 0
 hallway 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -111,8 +111,8 @@ the 0 0 0
 garage 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -120,8 +120,8 @@ the 0 0 0
 sunroom 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -129,8 +129,8 @@ the 0 0 0
 pantry 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -138,8 +138,8 @@ the 0 0 0
 closet 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -147,8 +147,8 @@ the 0 0 0
 parlor 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -156,8 +156,8 @@ the 0 0 0
 entryway 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -165,8 +165,8 @@ the 0 0 0
 lobby 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -174,8 +174,8 @@ the 0 0 0
 cellar 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -183,8 +183,8 @@ the 0 0 0
 loft 0 0 Loc
 . O
 
-I 0 0 0
-want 0 0 Act
+i 0 0 0
+want 0 0 Rqt
 to 0 0 0
 go 0 0 Act
 to 0 0 0
@@ -192,111 +192,169 @@ the 0 0 0
 nursery 0 0 Loc
 . O
 
-Navigate 0 0 0
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+am 0 0 Loc
+. O
+
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+here 0 0 Loc
+. O
+
+navigate 0 0 Act
 to 0 0 0
 location 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 kitchen 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 living 0 0 0
 room 0 0 0
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 bedroom 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 dining 0 0 0
 room 0 0 0
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 bathroom 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 basement 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 laundry 0 0 0
 room 0 0 0
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 attic 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 den 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 hallway 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 garage 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 sunroom 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 pantry 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 closet 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 parlor 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 entryway 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 lobby 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 cellar 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 loft 0 0 Loc
 . O
 
-Navigate 0 0 0
+navigate 0 0 Act
 to 0 0 0
 nursery 0 0 Loc
+. O
+
+navigate 0 0 Act
+to 0 0 0
+am 0 0 Loc
+. O
+
+navigate 0 0 Act
+to 0 0 0
+here 0 0 Loc
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+make 0 0 Act
+coffee 0 0 Obj
+. O
+
+hello 0 0 Trigger
+where 0 0 Rqt
+am 0 0 Loc
+i 0 0 0
+. O
+
+hello 0 0 Trigger
+what 0 0 Rqt
+can 0 0 Rqt
+i 0 0 0
+do 0 0 Act
+here 0 0 Loc
+. O
+
+prepare 0 0 Act
+meal 0 0 Obj
+. O
+
+use 0 0 Act
+refrigerator 0 0 Obj
 . O
 
