@@ -347,395 +347,6 @@ do 0 0 Act
 here 0 0 Loc
 . O
 
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-location 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-kitchen 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-living 0 0 0
-room 0 0 0
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-bedroom 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-dining 0 0 0
-room 0 0 0
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-bathroom 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-basement 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-laundry 0 0 0
-room 0 0 0
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-attic 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-den 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-hallway 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-garage 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-sunroom 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-pantry 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-closet 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-parlor 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-entryway 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-lobby 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-cellar 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-loft 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-nursery 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-am 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-go 0 0 Act
-to 0 0 0
-the 0 0 0
-here 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-location 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-kitchen 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-living 0 0 0
-room 0 0 0
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-bedroom 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-dining 0 0 0
-room 0 0 0
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-bathroom 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-basement 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-laundry 0 0 0
-room 0 0 0
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-attic 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-den 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-hallway 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-garage 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-sunroom 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-pantry 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-closet 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-parlor 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-entryway 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-lobby 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-cellar 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-loft 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-nursery 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-am 0 0 Loc
-. O
-
-hello 0 0 Trigger
-navigate 0 0 Act
-to 0 0 0
-here 0 0 Loc
-. O
-
-hello 0 0 Trigger
-i 0 0 0
-want 0 0 Rqt
-to 0 0 0
-make 0 0 Act
-coffee 0 0 Obj
-. O
-
-hello 0 0 Trigger
-where 0 0 Rqt
-am 0 0 Loc
-i 0 0 0
-. O
-
-hello 0 0 Trigger
 what 0 0 Rqt
 can 0 0 Rqt
 i 0 0 0
@@ -763,7 +374,6 @@ use 0 0 Act
 stove 0 0 Obj
 . O
 
-hello 0 0 Trigger
 i 0 0 0
 would 0 0 0
 like 0 0 0
@@ -772,7 +382,6 @@ wash 0 0 Act
 sheets 0 0 Obj
 . O
 
-hello 0 0 Trigger
 i 0 0 0
 would 0 0 0
 like 0 0 0
@@ -781,22 +390,18 @@ watch 0 0 Act
 television 0 0 Obj
 . O
 
-hello 0 0 Trigger
 wash 0 0 Act
 sheets 0 0 Obj
 . O
 
-hello 0 0 Trigger
 wash 0 0 Act
 clothes 0 0 Obj
 . O
 
-hello 0 0 Trigger
 cook 0 0 Act
 dinner 0 0 Obj
 . O
 
-hello 0 0 Trigger
 i 0 0 0
 would 0 0 0
 like 0 0 0
@@ -805,12 +410,10 @@ cook 0 0 Act
 dinner 0 0 Obj
 . O
 
-hello 0 0 Trigger
 make 0 0 Act
 food 0 0 Obj
 . O
 
-hello 0 0 Trigger
 i 0 0 0
 want 0 0 Rqt
 to 0 0 0
@@ -819,25 +422,14 @@ a 0 0 0
 book 0 0 0
 . O
 
-yes 0 0 Pos
+open 0 0 Act
+camera 0 0 Obj
 . O
 
-no 0 0 Neg
+start 0 0 Act
+camera 0 0 Obj
 . O
 
-correct 0 0 Pos
-. O
-
-incorrect 0 0 Neg
-. O
-
-positive 0 0 Pos
-. O
-
-negative 0 0 Neg
-. O
-
-hello 0 0 Trigger
 what 0 0 Rqt
 can 0 0 Rqt
 i 0 0 0
@@ -846,8 +438,46 @@ here 0 0 Loc
 . O
 
 where 0 0 Rqt
-is 0 0 Rqt
+is 0 0 0
 the 0 0 0
 coffee 0 0 Obj
+. O
+
+rewind 0 0 Act
+video 0 0 Obj
+. O
+
+pause 0 0 Act
+video 0 0 Obj
+. O
+
+skip 0 0 Act
+forward 0 0 Act
+. O
+
+negative 0 0 Neg
+. O
+
+positive 0 0 Pos
+. O
+
+yes 0 0 Pos
+. O
+
+no 0 0 Neg
+. O
+
+shutdown 0 0 Act
+app 0 0 Obj
+. O
+
+shut 0 0 Act
+. O
+
+hello 0 0 Trigger
+. O
+
+play 0 0 Act
+video 0 0 Obj
 . O
 
