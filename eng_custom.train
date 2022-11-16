@@ -467,6 +467,14 @@ yes 0 0 Pos
 no 0 0 Neg
 . O
 
+hello 0 0 Trigger
+yes 0 0 Pos
+. O
+
+hello 0 0 Trigger
+no 0 0 Neg
+. O
+
 shutdown 0 0 Act
 app 0 0 Obj
 . O
@@ -479,5 +487,42 @@ hello 0 0 Trigger
 
 play 0 0 Act
 video 0 0 Obj
+. O
+
+hello 0 0 Trigger
+shut 0 0 Act
+down 0 0 Act
+app 0 0 Obj
+. O
+
+hello 0 0 Trigger
+shut 0 0 Act
+. O
+
+hello 0 0 Trigger
+play 0 0 Act
+video 0 0 Obj
+. O
+
+hello 0 0 Trigger
+negative 0 0 Neg
+. O
+
+hello 0 0 Trigger
+positive 0 0 Pos
+. O
+
+correct 0 0 Pos
+. O
+
+incorrect 0 0 Neg
+. O
+
+hello 0 0 Trigger
+correct 0 0 Pos
+. O
+
+hello 0 0 Trigger
+incorrect 0 0 Neg
 . O
 
