@@ -59,13 +59,13 @@ for i in range(1,sh.max_column+1):
 sentances = ["-DOCSTART- -X- -X- O\n"]
 #file = open("read.txt",'w')
 
-#for i in range(1,sh.max_row+1):
-#    keyword = sh.cell(row=i,column=1).value
-#    for j in range(1,sh.max_column+1):
-#        one = sh.cell(row=i,column=j).value
-#        if(one == 1):
-#            sentances.append(keyword+" 0 0 "+sh.cell(row=1,column=j).value+"\n")
-#            break
+for i in range(1,sh.max_row+1):
+    keyword = sh.cell(row=i,column=1).value
+    for j in range(1,sh.max_column+1):
+        one = sh.cell(row=i,column=j).value
+        if(one == 1):
+            sentances.append(keyword+" 0 0 "+sh.cell(row=1,column=j).value+"\n")
+            break
 
 for w in get:
     filer = (f"i want to go to the {w}")
@@ -131,6 +131,9 @@ temp = sentancebreak(filer,sh)
 sentances=adding(sentances,temp)
 
 filer = (f"open camera")
+temp = sentancebreak(filer,sh)
+sentances=adding(sentances,temp)
+filer = (f"open cabinet")
 temp = sentancebreak(filer,sh)
 sentances=adding(sentances,temp)
 filer = (f"start camera")
