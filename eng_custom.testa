@@ -27,8 +27,7 @@ to 0 0 0
 go 0 0 Act
 to 0 0 0
 the 0 0 0
-living 0 0 0
-room 0 0 0
+livingroom 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -48,8 +47,7 @@ to 0 0 0
 go 0 0 Act
 to 0 0 0
 the 0 0 0
-dining 0 0 0
-room 0 0 0
+dining 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -79,8 +77,7 @@ to 0 0 0
 go 0 0 Act
 to 0 0 0
 the 0 0 0
-laundry 0 0 0
-room 0 0 0
+laundry 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -231,6 +228,37 @@ go 0 0 Act
 to 0 0 0
 the 0 0 0
 here 0 0 Loc
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+room 0 0 Loc
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+living 0 0 Loc
+. O
+
+hello 0 0 Trigger
+i 0 0 0
+want 0 0 Rqt
+to 0 0 0
+go 0 0 Act
+to 0 0 0
+the 0 0 0
+living 0 0 Loc
+room 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -248,8 +276,7 @@ kitchen 0 0 Loc
 hello 0 0 Trigger
 navigate 0 0 Act
 to 0 0 0
-living 0 0 0
-room 0 0 0
+livingroom 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -261,8 +288,7 @@ bedroom 0 0 Loc
 hello 0 0 Trigger
 navigate 0 0 Act
 to 0 0 0
-dining 0 0 0
-room 0 0 0
+dining 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -280,8 +306,7 @@ basement 0 0 Loc
 hello 0 0 Trigger
 navigate 0 0 Act
 to 0 0 0
-laundry 0 0 0
-room 0 0 0
+laundry 0 0 Loc
 . O
 
 hello 0 0 Trigger
@@ -372,6 +397,25 @@ hello 0 0 Trigger
 navigate 0 0 Act
 to 0 0 0
 here 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+room 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+living 0 0 Loc
+. O
+
+hello 0 0 Trigger
+navigate 0 0 Act
+to 0 0 0
+living 0 0 Loc
+room 0 0 Loc
 . O
 
 hello 0 0 Trigger
