@@ -1,0 +1,108 @@
+description,category
+i want to make coffee,DA
+where am i,LR
+what can i do here,AR
+prepare meal,DA
+use refrigerator,DA
+use fan,DA
+use oven,DA
+use stove,DA
+i would like to wash sheets,DA
+i would like to watch television,DA
+wash sheets,DA
+wash clothes,DA
+cook dinner,DA
+i would like to cook dinner,DA
+where is the coffee,DA
+rewind video,REV
+pause video,PV
+skip forward,FFV
+negative,N
+positive,P
+yes,P
+no,N
+hello yes,P
+hello no,N
+shutdown app,SD
+shut,SD
+hello,0
+hello shut down app,SD
+hello shut,SD
+hello negative,N
+hello positive,P
+correct,P
+incorrect,N
+hello correct,P
+hello incorrect,N
+i want to make coffee,DA
+where am i,LR
+start camera,OC
+stop camera,CC
+open camera,OC
+close camera,CC
+hello start camera,OC
+hello stop camera,CC
+hello open camera,OC
+hello close camera,CC
+hello i would like to wash sheets,DA
+hello i would like to watch television,DA
+hello wash sheets,DA
+hello wash clothes,DA
+hello cook dinner,DA
+hello i would like to cook dinner,DA
+hello where is the coffee,DA
+hello rewind video,REV
+hello pause video,PV
+hello skip forward,FFV
+i want to go to the location,NAV
+i want to go to the kitchen,NAV
+i want to go to the livingroom,NAV
+i want to go to the bedroom,NAV
+i want to go to the dining,NAV
+i want to go to the bathroom,NAV
+i want to go to the basement,NAV
+i want to go to the laundry,NAV
+i want to go to the attic,NAV
+i want to go to the den,NAV
+i want to go to the hallway,NAV
+i want to go to the garage,NAV
+i want to go to the sunroom,NAV
+i want to go to the pantry,NAV
+i want to go to the closet,NAV
+i want to go to the parlor,NAV
+i want to go to the entryway,NAV
+i want to go to the lobby,NAV
+i want to go to the cellar,NAV
+i want to go to the loft,NAV
+i want to go to the nursery,NAV
+i want to go to the am,NAV
+i want to go to the here,NAV
+i want to go to the room,NAV
+i want to go to the living,NAV
+i want to go to the living room,NAV
+navigate to location,NAV
+navigate to kitchen,NAV
+navigate to livingroom,NAV
+navigate to bedroom,NAV
+navigate to dining,NAV
+navigate to bathroom,NAV
+navigate to basement,NAV
+navigate to laundry,NAV
+navigate to attic,NAV
+navigate to den,NAV
+navigate to hallway,NAV
+navigate to garage,NAV
+navigate to sunroom,NAV
+navigate to pantry,NAV
+navigate to closet,NAV
+navigate to parlor,NAV
+navigate to entryway,NAV
+navigate to lobby,NAV
+navigate to cellar,NAV
+navigate to loft,NAV
+navigate to nursery,NAV
+navigate to am,NAV
+navigate to here,NAV
+navigate to room,NAV
+navigate to living,NAV
+navigate to living room,NAV
