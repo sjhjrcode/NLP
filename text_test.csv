@@ -120,6 +120,8 @@ Joe made the sugar cookies; Susan decorated them.,NA
 Being unacquainted with the chief raccoon was harming his prospects for promotion.,NA
 "She was sad to hear that fireflies are facing extinction due to artificial light, habitat loss, and pesticides.",NA
 go to the living room,NAV
+go to the livingroom,NAV
+go to kitchen,NAV
 can I go to the living room,NAV
 take me to the sunroom,NAV
 kitchen to bathroom,NAV
@@ -130,3 +132,55 @@ where is the bathroom,NAV
 i am lost take me to the livingroom,NAV
 help me find the kitchen,NAV
 help me to the bedroom,NAV
+navigate to location,NAV
+navigate to kitchen,NAV
+navigate to livingroom,NAV
+navigate to bedroom,NAV
+navigate to dining,NAV
+navigate to bathroom,NAV
+navigate to basement,NAV
+navigate to laundry,NAV
+navigate to attic,NAV
+navigate to den,NAV
+navigate to hallway,NAV
+navigate to garage,NAV
+navigate to sunroom,NAV
+navigate to pantry,NAV
+navigate to closet,NAV
+navigate to parlor,NAV
+navigate to entryway,NAV
+navigate to lobby,NAV
+navigate to cellar,NAV
+navigate to loft,NAV
+navigate to nursery,NAV
+navigate to am,NAV
+navigate to here,NAV
+navigate to room,NAV
+navigate to living,NAV
+navigate to living room,NAV
+is this the location,LR
+is this the kitchen,LR
+is this the livingroom,LR
+is this the bedroom,LR
+is this the dining,LR
+is this the bathroom,LR
+is this the basement,LR
+is this the laundry,LR
+is this the attic,LR
+is this the den,LR
+is this the hallway,LR
+is this the garage,LR
+is this the sunroom,LR
+is this the pantry,LR
+is this the closet,LR
+is this the parlor,LR
+is this the entryway,LR
+is this the lobby,LR
+is this the cellar,LR
+is this the loft,LR
+is this the nursery,LR
+is this the am,LR
+is this the here,LR
+is this the room,LR
+is this the living,LR
+is this the living room,LR

@@ -130,6 +130,8 @@ sentances.append("Joe made the sugar cookies; Susan decorated them.:NA")
 sentances.append("Being unacquainted with the chief raccoon was harming his prospects for promotion.:NA")
 sentances.append("She was sad to hear that fireflies are facing extinction due to artificial light, habitat loss, and pesticides.:NA")
 sentances.append("go to the living room:NAV")
+sentances.append("go to the livingroom:NAV")
+sentances.append("go to kitchen:NAV")
 sentances.append("can I go to the living room:NAV")
 sentances.append("take me to the sunroom:NAV")
 sentances.append("kitchen to bathroom:NAV")
@@ -145,7 +147,7 @@ Loc = df.loc[df['Loc']==1]
 #print(Loc)
 workbook = openpyxl.load_workbook('./Keyword Map NLP.xlsx')
 sh = workbook.active
-'''                 
+              
 get= []
 print("start")
 for i in range(1,sh.max_column+1):
@@ -161,20 +163,7 @@ for i in range(1,sh.max_column+1):
         break
                  
 for w in get:
-    filer = (f"i want to go to the {w}:NAV")
-    sentances.append(filer)
-
-for w in get:
     filer = (f"navigate to {w}:NAV")
-    sentances.append(filer)
-for w in get:
-    filer = (f"take me to {w}:NAV")
-    sentances.append(filer)
-for w in get:
-    filer = (f"where is to {w}:NAV")
-    sentances.append(filer)
-for w in get:
-    filer = (f"can i go to {w}:NAV")
     sentances.append(filer)
 
 
@@ -182,10 +171,7 @@ for w in get:
     filer = (f"is this the {w}:LR")
     sentances.append(filer)
 
-for w in get:
-    filer = (f"am I in the {w}:LR")
-    sentances.append(filer)
-'''
+
 
 fields  = ["description","category"]
 with open('text_train.csv', 'w') as csvfile:

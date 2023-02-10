@@ -20,7 +20,7 @@ print("Apache Spark version:", spark.version)
 
 from flask import Flask
 from sparknlp.base import LightPipeline
-
+'''
 document_assembler = DocumentAssembler() \
     .setInputCol('text') \
     .setOutputCol('document')
@@ -59,6 +59,58 @@ load_ner_pipeline = Pipeline(stages=[
       use,
       loaded_text_model
  ])
+'''
+
+document_assembler = DocumentAssembler() \
+    .setInputCol('text') \
+    .setOutputCol('document')
+
+sentence = SentenceDetector()\
+    .setInputCols(['document'])\
+    .setOutputCol('sentence')
+
+tokenizer = Tokenizer() \
+    .setInputCols(['document']) \
+    .setOutputCol('token')
+
+bert = BertEmbeddings.pretrained('bert_base_cased', 'en')\
+    .setInputCols(["sentence",'token'])\
+    .setOutputCol("bert")\
+    .setCaseSensitive(False)
+
+loaded_ner_model = NerDLModel.load("NER_bert_20200221")\
+   .setInputCols(["sentence", "token", "bert"])\
+   .setOutputCol("ner")
+
+
+ner_converter = NerConverter() \
+    .setInputCols(['document', 'token', 'ner']) \
+    .setOutputCol('ner_span')
+
+ner_converter = NerConverter() \
+    .setInputCols(['document', 'token', 'ner']) \
+    .setOutputCol('ner_chunk')
+
+
+use = UniversalSentenceEncoder.pretrained()\
+ .setInputCols(["document"])\
+ .setOutputCol("sentence_embeddings")
+# the classes/labels/categories are in category column
+loaded_text_model = ClassifierDLModel.load("Text_Classification")\
+  .setInputCols(["sentence_embeddings"])\
+  .setOutputCol("class")
+
+load_ner_pipeline = Pipeline(stages=[
+      document_assembler, 
+      sentence,
+      tokenizer,
+      bert,
+      loaded_ner_model,
+      ner_converter,
+      use,
+      loaded_text_model
+ ])
+
 
 
     
