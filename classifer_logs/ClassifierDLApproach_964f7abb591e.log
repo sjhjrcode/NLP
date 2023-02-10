@@ -1,0 +1,101 @@
+Training started - epochs: 50 - learning_rate: 0.003 - batch_size: 32 - training_examples: 89 - classes: 9
+Epoch 0/50 - 0.21s - loss: 6.4416833 - acc: 0.50374997 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 1/50 - 0.01s - loss: 6.0462213 - acc: 0.5775 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 2/50 - 0.02s - loss: 6.1750607 - acc: 0.74 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 3/50 - 0.01s - loss: 6.268383 - acc: 0.77125 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 4/50 - 0.01s - loss: 6.2070866 - acc: 0.79125 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 5/50 - 0.01s - loss: 6.123069 - acc: 0.79125 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 6/50 - 0.01s - loss: 6.0873933 - acc: 0.806875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 7/50 - 0.01s - loss: 6.068794 - acc: 0.806875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 8/50 - 0.01s - loss: 6.049652 - acc: 0.838125 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 9/50 - 0.01s - loss: 6.0296855 - acc: 0.87375 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 10/50 - 0.01s - loss: 6.012684 - acc: 0.905 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 11/50 - 0.01s - loss: 6.0007 - acc: 0.920625 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 12/50 - 0.01s - loss: 5.9929643 - acc: 0.951875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 13/50 - 0.01s - loss: 5.987078 - acc: 0.951875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 14/50 - 0.01s - loss: 5.981352 - acc: 0.951875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 15/50 - 0.01s - loss: 5.975594 - acc: 0.971875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 16/50 - 0.01s - loss: 5.969814 - acc: 0.971875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 17/50 - 0.01s - loss: 5.9640226 - acc: 0.971875 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 18/50 - 0.01s - loss: 5.958338 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 19/50 - 0.01s - loss: 5.9528346 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 20/50 - 0.01s - loss: 5.947488 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 21/50 - 0.01s - loss: 5.942053 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 22/50 - 0.01s - loss: 5.9365788 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 23/50 - 0.01s - loss: 5.930971 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 24/50 - 0.01s - loss: 5.9252787 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 25/50 - 0.01s - loss: 5.9195123 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 26/50 - 0.01s - loss: 5.913715 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 27/50 - 0.01s - loss: 5.9079256 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 28/50 - 0.01s - loss: 5.9022493 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 29/50 - 0.01s - loss: 5.8967314 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 30/50 - 0.01s - loss: 5.8913364 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 31/50 - 0.01s - loss: 5.886081 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 32/50 - 0.01s - loss: 5.880972 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 33/50 - 0.01s - loss: 5.876017 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 34/50 - 0.01s - loss: 5.871188 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 35/50 - 0.01s - loss: 5.866494 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 36/50 - 0.01s - loss: 5.861948 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 37/50 - 0.01s - loss: 5.8575306 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 38/50 - 0.01s - loss: 5.8531737 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 39/50 - 0.01s - loss: 5.8488274 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 40/50 - 0.01s - loss: 5.8446064 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 41/50 - 0.01s - loss: 5.8404913 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 42/50 - 0.01s - loss: 5.836516 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 43/50 - 0.01s - loss: 5.832665 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 44/50 - 0.01s - loss: 5.828908 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 45/50 - 0.01s - loss: 5.8252816 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 46/50 - 0.01s - loss: 5.821785 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 47/50 - 0.01s - loss: 5.8183937 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 48/50 - 0.01s - loss: 5.815072 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22
+Epoch 49/50 - 0.01s - loss: 5.811803 - acc: 1.0 - batches: 3
+Quality on validation dataset (20.0%), validation examples = 22

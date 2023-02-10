@@ -14,35 +14,53 @@ wash clothes,DA
 cook dinner,DA
 i would like to cook dinner,DA
 where is the coffee,DA
-rewind video,REV
-pause video,PV
-skip forward,FFV
-negative,N
-positive,P
-yes,P
-no,N
-hello yes,P
-hello no,N
+rewind video,VC
+forward,VC
+pause video,VC
+skip,VC
+rewind,VC
+pause,VC
+fast forward,VC
+play video,VC
+resume,VC
+resume video,VC
+negative,SN
+positive,SN
+yes,SN
+no,SN
+hello yes,SN
+hello no,SN
 shutdown app,SD
 shut,SD
-hello,0
+hello,NA
 hello shut down app,SD
 hello shut,SD
-hello negative,N
-hello positive,P
-correct,P
-incorrect,N
-hello correct,P
-hello incorrect,N
+hello negative,SN
+hello positive,SN
+correct,SN
+incorrect,SN
+fake,SN
+false,SN
+nay,SN
+wrong,SN
+yay,SN
+genuine,SN
+true,SN
+right,SN
+hello correct,SN
+hello incorrect,SN
 i want to make coffee,DA
 where am i,LR
-start camera,OC
+start camera,CC
 stop camera,CC
-open camera,OC
+open camera,CC
 close camera,CC
-hello start camera,OC
+start camera,CC
+disengage,CC
+display,CC
+hello start camera,CC
 hello stop camera,CC
-hello open camera,OC
+hello open camera,CC
 hello close camera,CC
 hello i would like to wash sheets,DA
 hello i would like to watch television,DA
@@ -51,58 +69,64 @@ hello wash clothes,DA
 hello cook dinner,DA
 hello i would like to cook dinner,DA
 hello where is the coffee,DA
-hello rewind video,REV
-hello pause video,PV
-hello skip forward,FFV
-i want to go to the location,NAV
+hello rewind video,VC
+hello pause video,VC
+hello skip forward,VC
+shut down,SD
+turn off,SD
+return home,SD
+shutdown,SD
+power off,SD
+shut down system,SD
+system disable,SD
+disengage,SD
+what can I do here,AR
+activites,AR
+what activites are available,AR
+what activites are available at this location,AR
+what can I interactive with,AR
+what can I make,AR
+is there water here,AR
+what is here,AR
+where am I,LR
+where am I currently at,LR
+what is here,AR
+where am is the kitchen,NAV
+where am I currently at,LR
+am I currently in the kitchen,LR
+am I currently in the bedroom,LR
+am I currently in the bathroom,LR
+where am I at,LR
+can you tell me where I am,LR
+i need to know my current position,LR
+location,LR
+position,LR
+where,LR
+activities,AR
+do here,AR
+available,AR
+coffee,DA
+cook,DA
+diswasher,DA
+society excited by cottage private an it esteems,NA
+fully begin on by wound an,NA
+girl rich in do up or both,NA
+at declared in as rejoiced of together,NA
+he impression collecting delightful unpleasant by prosperous as on,NA
+end too talent she object mrs wanted remove giving,NA
+the text is a corrupted version of the original and therefore does not mean anything in particular,NA
+"It was a scrape that he hardly noticed. Sure, there was a bit of blood but it was minor compared to most of the other cuts and bruises he acquired on his adventures. There was no way he could know that the rock that produced the cut had alien genetic material on it that was now racing through his bloodstream. He felt perfectly normal and continued his adventure with no knowledge of what was about to happen to him.",NA
+Joe made the sugar cookies; Susan decorated them.,NA
+Being unacquainted with the chief raccoon was harming his prospects for promotion.,NA
+"She was sad to hear that fireflies are facing extinction due to artificial light, habitat loss, and pesticides.",NA
+go to the living room,NAV
+can I go to the living room,NAV
+take me to the sunroom,NAV
+kitchen to bathroom,NAV
+move to garage,NAV
 i want to go to the kitchen,NAV
-i want to go to the livingroom,NAV
-i want to go to the bedroom,NAV
-i want to go to the dining,NAV
-i want to go to the bathroom,NAV
-i want to go to the basement,NAV
-i want to go to the laundry,NAV
-i want to go to the attic,NAV
-i want to go to the den,NAV
-i want to go to the hallway,NAV
-i want to go to the garage,NAV
-i want to go to the sunroom,NAV
-i want to go to the pantry,NAV
-i want to go to the closet,NAV
-i want to go to the parlor,NAV
-i want to go to the entryway,NAV
-i want to go to the lobby,NAV
-i want to go to the cellar,NAV
-i want to go to the loft,NAV
-i want to go to the nursery,NAV
-i want to go to the am,NAV
-i want to go to the here,NAV
-i want to go to the room,NAV
-i want to go to the living,NAV
-i want to go to the living room,NAV
-navigate to location,NAV
-navigate to kitchen,NAV
-navigate to livingroom,NAV
-navigate to bedroom,NAV
-navigate to dining,NAV
-navigate to bathroom,NAV
-navigate to basement,NAV
-navigate to laundry,NAV
-navigate to attic,NAV
-navigate to den,NAV
-navigate to hallway,NAV
-navigate to garage,NAV
-navigate to sunroom,NAV
-navigate to pantry,NAV
-navigate to closet,NAV
-navigate to parlor,NAV
-navigate to entryway,NAV
-navigate to lobby,NAV
-navigate to cellar,NAV
-navigate to loft,NAV
-navigate to nursery,NAV
-navigate to am,NAV
-navigate to here,NAV
-navigate to room,NAV
-navigate to living,NAV
-navigate to living room,NAV
+how do i get to the bathroom,NAV
+where is the bathroom,NAV
+i am lost take me to the livingroom,NAV
+help me find the kitchen,NAV
+help me to the bedroom,NAV

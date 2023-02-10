@@ -1,0 +1,10 @@
+label        tp	 fp	 fn	 prec	 rec	 f1
+DA           6	 0	 0	 1.0	 1.0	 1.0
+NA           0	 0	 1	 0.0	 0.0	 0.0
+SD           0	 0	 1	 0.0	 0.0	 0.0
+VC           0	 0	 2	 0.0	 0.0	 0.0
+CC           2	 1	 0	 0.6666667	 1.0	 0.8
+SN           5	 3	 0	 0.625	 1.0	 0.7692308
+tp: 13 fp: 4 fn: 4 labels: 6
+Macro-average	 prec: 0.38194445, rec: 0.5, f1: 0.43307087
+Micro-average	 prec: 0.7647059, recall: 0.7647059, f1: 0.7647059
