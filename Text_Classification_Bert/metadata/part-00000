@@ -1,0 +1,1 @@
+{"class":"com.johnsnowlabs.nlp.annotators.classifier.dl.ClassifierDLModel","timestamp":1677780298673,"sparkVersion":"3.3.1","uid":"ClassifierDLModel_34135b8885ed","paramMap":{"outputCol":"class","storageRef":"sent_small_bert_L8_512","inputCols":["sentence_embeddings"]},"defaultParamMap":{"storageRef":"ClassifierDLModel_34135b8885ed","lazyAnnotator":false,"engine":"tensorflow"}}
