@@ -1,0 +1,2 @@
+Macro-average	 prec: 0.28943452, rec: 0.4097222, f1: 0.3392308
+Micro-average	 prec: 0.45, recall: 0.45, f1: 0.45
