@@ -1,0 +1,58 @@
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to know the location: \"purpose\" : \"LOC\"."
+},{
+  "role": "user", "content": "Where am I"}, {
+  "role": "assistant", "content": "{\"purpose\": \"LOC\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to know the location: \"purpose\" : \"LOC\"."
+},{
+  "role": "user", "content": "the location"}, {
+  "role": "assistant", "content": "{\"purpose\": \"LOC\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to navigate to other locations: \"purpose\" : \"NAV\"."
+},{
+  "role": "user", "content": "Go to the kitchen"}, {
+  "role": "assistant", "content": "{\"purpose\": \"NAV\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to go the specific location to do something: \"purpose\" : \"ACT\"."
+},{
+  "role": "user", "content": "Where I can find the oven"}, {
+  "role": "assistant", "content": "{\"purpose\": \"NAV\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to do something related to some objects: \"purpose\" : \"ACT\"."
+},{
+  "role": "user", "content": "Making coffee"}, {
+  "role": "assistant", "content": "{\"purpose\": \"ACT\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to do something related to some objects: \"purpose\" : \"ACT\"."
+},{
+  "role": "user", "content": "Make coffee"}, {
+  "role": "assistant", "content": "{\"purpose\": \"ACT\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to do something related to some objects: \"purpose\" : \"ACT\"."
+},{
+  "role": "user", "content": "Cook"}, {
+  "role": "assistant", "content": "{\"purpose\": \"ACT\"}"},]}
+
+{"messages": [{
+  "role": "system",
+  "content": "Understand what the users want do, provide the following fields in a JSON dict, if the user want to do something related to some objects: \"purpose\" : \"ACT\"."
+},{
+  "role": "user", "content": "Cooking"}, {
+  "role": "assistant", "content": "{\"purpose\": \"ACT\"}"},]}
+
+
+
