@@ -14,16 +14,16 @@ wash clothes,DA
 cook dinner,DA
 i would like to cook dinner,DA
 where is the coffee,DA
-rewind video,VC
-forward,VC
-pause video,VC
-skip,VC
-rewind,VC
-pause,VC
-fast forward,VC
-play video,VC
-resume,VC
-resume video,VC
+rewind video,RV
+forward,FF
+pause video,PV
+skip,FF
+rewind,RV
+pause,PV
+fast forward,FF
+play video,SV
+resume,SV
+resume video,SV
 negative,SN
 positive,SN
 yes,SN
@@ -69,9 +69,9 @@ wash clothes,DA
 cook dinner,DA
 i would like to cook dinner,DA
 where is the coffee,DA
-rewind video,VC
-pause video,VC
-skip forward,VC
+rewind video,RV
+pause video,PV
+skip forward,FF
 shut down,SD
 turn off,SD
 return home,SD
@@ -160,39 +160,39 @@ Deactivate assistance,SD
 Go home,SD
  Return home,SD
 Go to the home page,SD
-pause the video,VC
-Stop the video,VC
-Pause,VC
-Freeze video,VC
-Stop video,VC
-Freeze video,VC
-Press pause,VC
-can you start the video,VC
-Resume the video,VC
-Play,VC
-Play video,VC
-Continue video,VC
-Unfreeze video,VC
-Replay video,VC
-Play video ,VC
-Press play ,VC
-play it back,VC
-Go back a few seconds,VC
-Turn back video,VC
-Reverse video,VC
-Restart video,VC
-Go back on the video,VC
-Go back,VC
-Minus 15 seconds ,VC
-skip forward in the video,VC
-Next video,VC
-Fast forward ,VC
-Skip video,VC
-Pass video,VC
-Speed up video,VC
-Skip,VC
-Skip forward 30 seconds ,VC
-Go forward,VC
+pause the video,PV
+Stop the video,PV
+Pause,PV
+Freeze video,PV
+Stop video,PV
+Freeze video,PV
+Press pause,PV
+can you start the video,SV
+Resume the video,SV
+Play,SV
+Play video,SV
+Continue video,SV
+Unfreeze video,SV
+Replay video,SV
+Play video ,SV
+Press play ,SV
+play it back,RV
+Go back a few seconds,RV
+Turn back video,RV
+Reverse video,RV
+Restart video,RV
+Go back on the video,RV
+Go back,RV
+Minus 15 seconds ,RV
+skip forward in the video,FF
+Next video,FF
+Fast forward ,FF
+Skip video,FF
+Pass video,FF
+Speed up video,FF
+Skip,FF
+Skip forward 30 seconds ,FF
+Go forward,FF
 i need help making a sandwich,DA
 How do I use the microwave?,DA
 How do I make coffee ,DA

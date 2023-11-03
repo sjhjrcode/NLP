@@ -1,0 +1,205 @@
+description,category,NER
+i want to make coffee,DA, 0 Rqt 0 Act Obj
+where am i,LR, Rqt Loc 0
+what can i do here,AR, Rqt Rqt 0 Act Loc
+prepare meal,DA, Act Obj
+use refrigerator,DA, Act Obj
+use fan,DA, Act Obj
+use oven,DA, Act Obj
+use stove,DA, Act Obj
+i would like to wash sheets,DA, 0 0 0 0 Act Obj
+i would like to watch television,DA, 0 0 0 0 Act Obj
+wash sheets,DA, Act Obj
+wash clothes,DA, Act Obj
+cook dinner,DA, Act Obj
+i would like to cook dinner,DA, 0 0 0 0 Act Obj
+where is the coffee,DA, Rqt 0 0 Obj
+rewind video,RV, Act Obj
+forward,FF, Act
+pause video,PV, Act Obj
+skip,FF, Act
+rewind,RV, Act
+pause,PV, Act
+fast forward,FF, 0 Act
+play video,SV, Act Obj
+resume,SV, Act
+resume video,SV, Act Obj
+negative,SN, Neg
+positive,SN, Pos
+yes,SN, Pos
+no,SN, Neg
+yes,SN, Pos
+no,SN, Neg
+shutdown app,SD, Act Obj
+shut,SD, Act
+hello,, Trigger
+shut down app,SD, Act Act Obj
+shut,SD, Act
+negative,SN, Neg
+positive,SN, Pos
+correct,SN, Pos
+incorrect,SN, Neg
+fake,SN, 0
+false,SN, 0
+nay,SN, 0
+wrong,SN, 0
+yay,SN, 0
+genuine,SN, 0
+true,SN, 0
+right,SN, Act
+correct,SN, Pos
+incorrect,SN, Neg
+i want to make coffee,DA, 0 Rqt 0 Act Obj
+where am i,LR, Rqt Loc 0
+start camera,CC, Act Obj
+stop camera,CC, 0 Obj
+open camera,CC, Act Obj
+close camera,CC, Act Obj
+start camera,CC, Act Obj
+disengage,CC, 0
+display,CC, 0
+start camera,CC, Act Obj
+stop camera,CC, 0 Obj
+open camera,CC, Act Obj
+close camera,CC, Act Obj
+i would like to wash sheets,DA, 0 0 0 0 Act Obj
+i would like to watch television,DA, 0 0 0 0 Act Obj
+wash sheets,DA, Act Obj
+wash clothes,DA, Act Obj
+cook dinner,DA, Act Obj
+i would like to cook dinner,DA, 0 0 0 0 Act Obj
+where is the coffee,DA, Rqt 0 0 Obj
+rewind video,RV, Act Obj
+pause video,PV, Act Obj
+skip forward,FF, Act Act
+shut down,SD, Act Act
+turn off,SD, 0 0
+return home,SD, 0 0
+shutdown,SD, Act
+power off,SD, 0 0
+shut down system,SD, Act Act 0
+system disable,SD, 0 0
+disengage,SD, 0
+what can I do here,AR, Rqt Rqt 0 Act Loc
+activites,AR, 0
+what activites are available,AR, Rqt 0 0 0
+what activites are available at this location,AR, Rqt 0 0 0 0 0 Loc
+what can I interactive with,AR, Rqt Rqt 0 0 0
+what can I make,AR, Rqt Rqt 0 Act
+is there water here,AR, 0 0 0 Loc
+what is here,AR, Rqt 0 Loc
+where am I,LR, Rqt Loc 0
+where am I currently at,LR, Rqt Loc 0 0 0
+what is here,AR, Rqt 0 Loc
+where am is the kitchen,NAV, Rqt Loc 0 0 Loc
+where am I currently at,LR, Rqt Loc 0 0 0
+am I currently in the kitchen,LR, Loc 0 0 0 0 Loc
+am I currently in the bedroom,LR, Loc 0 0 0 0 Loc
+am I currently in the bathroom,LR, Loc 0 0 0 0 Loc
+where am I at,LR, Rqt Loc 0 0
+can you tell me where I am,LR, Rqt 0 0 0 Rqt 0 Loc
+i need to know my current position,LR, 0 0 0 0 0 0 0
+location,LR, Loc
+position,LR, 0
+where,LR, Rqt
+activities,AR, 0
+do here,AR, Act Loc
+available,AR, 0
+coffee,DA, Obj
+cook,DA, Act
+diswasher,DA, 0
+go to the living room,NAV, Act 0 0 Loc Loc
+go to kitchen,NAV, Act 0 Loc
+can I go to the living room,NAV, Rqt 0 Act 0 0 Loc Loc
+take me to the sunroom,NAV, 0 0 0 0 Loc
+kitchen to bathroom,NAV, Loc 0 Loc
+move to garage,NAV, Act 0 Loc
+i want to go to the kitchen,NAV, 0 Rqt 0 Act 0 0 Loc
+how do i get to the bathroom,NAV, 0 Act 0 0 0 0 Loc
+where is the bathroom,NAV, Rqt 0 0 Loc
+i am lost take me to the livingroom,NAV, 0 Loc 0 0 0 0 0 Loc
+help me find the kitchen,NAV, 0 0 Act 0 Loc
+help me to the bedroom,NAV, 0 0 0 0 Loc
+what activites are available here,AR, Rqt 0 0 0 Loc
+what activity’s can I do here,AR, Rqt 0 Rqt 0 Act Loc
+Am i able to complete a task here,AR, 0 0 0 0 0 0 0 Loc
+What activities are here,AR, 0 0 0 Loc
+What options do I have,AR, 0 0 Act 0 0
+What’s happening here,AR, 0 0 Loc
+What are some activities that you offer,AR, 0 0 0 0 0 0 0
+where am I at,LR, Rqt Loc 0 0
+can I eat in the kitchen,LR, Rqt 0 0 0 0 Loc
+"I don't know where I am, can you help me",LR, 0 0 0 Rqt 0 0 Rqt 0 0 0
+What’s my current address ,LR, 0 0 0 0 0
+Where are you,LR, 0 0 0
+Location please,LR, 0 0
+Do you know what my location is,LR, 0 0 0 Rqt 0 Loc 0
+open the camera,CC, Act 0 Obj
+where am I at,CC, Rqt Loc 0 0
+Open the camera for me,CC, 0 0 Obj 0 0
+Open camera app,CC, 0 Obj Obj
+Open the camera,CC, 0 0 Obj
+Bring up the camera,CC, 0 Act 0 Obj
+Activate the camera,CC, 0 0 Obj
+Turn on camera,CC, 0 0 Obj
+Take a picture ,CC, 0 0 0 0
+turn the camera off,CC, 0 0 Obj 0
+Close the camera for me,CC, 0 0 Obj 0 0
+Close camera app,CC, 0 Obj Obj
+Shut down the camera,CC, 0 Act 0 Obj
+Turn off the camera,CC, 0 0 0 Obj
+Turn off camera,CC, 0 0 Obj
+can i return to home,SD, Rqt 0 0 0 0
+Close this app,SD, 0 0 Obj
+Return to home page ,SD, 0 0 0 0 0
+Good night,SD, 0 0
+Thank you ,SD, 0 0 0
+Exit,SD, 0
+Turn off assistant,SD, 0 0 0
+Deactivate assistance,SD, 0 0
+Go home,SD, 0 0
+ Return home,SD, 0 0 0
+Go to the home page,SD, 0 0 0 0 0
+pause the video,PV, Act 0 Obj
+Stop the video,PV, 0 0 Obj
+Pause,PV, 0
+Freeze video,PV, 0 Obj
+Stop video,PV, 0 Obj
+Freeze video,PV, 0 Obj
+Press pause,PV, 0 Act
+can you start the video,SV, Rqt 0 Act 0 Obj
+Resume the video,SV, 0 0 Obj
+Play,SV, 0
+Play video,SV, 0 Obj
+Continue video,SV, 0 Obj
+Unfreeze video,SV, 0 Obj
+Replay video,SV, 0 Obj
+Play video ,SV, 0 Obj 0
+Press play ,SV, 0 Act 0
+play it back,RV, Act 0 0
+Go back a few seconds,RV, 0 0 0 0 0
+Turn back video,RV, 0 0 Obj
+Reverse video,RV, 0 Obj
+Restart video,RV, 0 Obj
+Go back on the video,RV, 0 0 0 0 Obj
+Go back,RV, 0 0
+Minus 15 seconds ,RV, 0 0 0 0
+skip forward in the video,FF, Act Act 0 0 Obj
+Next video,FF, 0 Obj
+Fast forward ,FF, 0 Act 0
+Skip video,FF, 0 Obj
+Pass video,FF, 0 Obj
+Speed up video,FF, 0 Act Obj
+Skip,FF, 0
+Skip forward 30 seconds ,FF, 0 Act 0 0 0
+Go forward,FF, 0 Act
+i need help making a sandwich,DA, 0 0 0 0 0 0
+How do I use the microwave?,DA, 0 Act 0 Act 0 0
+How do I make coffee ,DA, 0 Act 0 Act Obj 0
+How do I cook an egg,DA, 0 Act 0 Act 0 0
+How do I do this,DA, 0 Act 0 Act 0
+i need to go to the livingroom,NAV, 0 0 0 Act 0 0 Loc
+Take me to the garden,NAV, 0 0 0 0 0
+Lead me to the bathroom ,NAV, 0 0 0 0 Loc 0
+Locate living room ,NAV, 0 Loc Loc 0
+Take me to the living room,NAV, 0 0 0 0 Loc Loc

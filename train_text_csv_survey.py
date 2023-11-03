@@ -304,3 +304,43 @@ with open('text_test.csv', 'w') as csvfile:
     # writing the data rows 
     #print(rows)
     csvwriter.writerows(rows)
+    
+import pandas as pd
+store = []
+for element in sentances:
+    broken = element.split(':')
+    data = ""
+    words = broken[0].split(' ')
+    for word in words:
+        print(word)
+        check = True
+        for i in range(1,sh.max_row+1):
+            keyword = sh.cell(row=i,column=1).value
+            if(word == keyword):
+                #print("keyword check")
+                for j in range(1,sh.max_column+1):
+                   
+                    #print("one check")
+                    one = sh.cell(row=i,column=j).value
+                    #print(one)
+                    if(one == 1):
+                        check = False
+                        #print("store check")
+                        data= data+" "+str(sh.cell(row=1,column=j).value)
+                        break
+                break
+        if(check == True):
+            data = data+" 0"
+
+    store.append(data)
+        
+
+# Load the CSV file
+df = pd.read_csv('text_train.csv')
+
+# Insert data into column 3
+
+df.insert(2, 'NER', store)
+
+# Write the result back to the CSV file
+df.to_csv('your_file.csv', index=False)
