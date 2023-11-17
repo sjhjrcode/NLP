@@ -44,9 +44,9 @@ def save_as_jsonl(json_data, jsonl_filepath):
 jsonl_filepath = './converted_data.jsonl'
 
 # Saving the data as JSONL
-save_as_jsonl(json_output_excluding_first, jsonl_filepath)
+#save_as_jsonl(json_output_excluding_first, jsonl_filepath)
 
-jsonl_filepath
+#jsonl_filepath
 
 # Corrected function to save the JSON data as JSONL in the specified format
 def save_as_jsonl_corrected_format(json_data, jsonl_filepath):
@@ -70,4 +70,35 @@ jsonl_corrected_format_filepath = './converted_data_corrected_format.jsonl'
 save_as_jsonl_corrected_format(json_output_excluding_first, jsonl_corrected_format_filepath)
 
 jsonl_corrected_format_filepath
+
+import random
+
+# Splitting the data into training (70%) and validation (30%)
+def split_data(json_data, split_ratio=0.7):
+    total_messages = len(json_data["messages"]) - 1  # Exclude the system message
+    num_train = int(total_messages * split_ratio) // 2 * 2  # Ensure even number for pairs
+
+    # Shuffle and split indices (starting from 1 to skip system message)
+    indices = list(range(1, total_messages + 1))
+    random.shuffle(indices)
+    train_indices = indices[:num_train]
+    validation_indices = indices[num_train:]
+
+    # Splitting the data
+    train_data = {"messages": [json_data["messages"][0]] + [json_data["messages"][i] for i in train_indices]}
+    validation_data = {"messages": [json_data["messages"][0]] + [json_data["messages"][i] for i in validation_indices]}
+
+    return train_data, validation_data
+
+# Split the data
+train_data, validation_data = split_data(json_output_excluding_first)
+
+# Saving the training and validation data as JSONL
+train_jsonl_filepath = './train_data.jsonl'
+validation_jsonl_filepath = './validation_data.jsonl'
+
+save_as_jsonl_corrected_format(train_data, train_jsonl_filepath)
+save_as_jsonl_corrected_format(validation_data, validation_jsonl_filepath)
+
+train_jsonl_filepath, validation_jsonl_filepath
 
