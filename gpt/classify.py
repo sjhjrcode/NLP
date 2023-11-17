@@ -13,7 +13,8 @@ def load_data(filename):
 # Use ChatGPT API for classification
 def classify_sentence(sentence, api_key):
     response = openai.Completion.create(
-        model="your-finetuned-model-name",  # Replace with your fine-tuned model name
+        model="ft:gpt-3.5-turbo-1106:oklahoma-state-university::8LjAus7L",  # Replace with your fine-tuned model name
+        #message="Cassy is a home health care assistant that helps dementia patients by classifying their given sentences into intent and NER.",
         prompt=sentence,
         max_tokens=50,  # Adjust as necessary
         api_key=api_key
