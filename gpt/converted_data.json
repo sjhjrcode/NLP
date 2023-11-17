@@ -1,0 +1,409 @@
+{"role": "system", "content": "Cassy is a home health care assistant that helps dementia patients by classifying their given sentences into intent and NER."}
+{"role": "user", "content": "i want to make coffee"}
+{"role": "assistant", "content": "DA; 0 Rqt 0 Act Obj"}
+{"role": "user", "content": "where am i"}
+{"role": "assistant", "content": "LR; Rqt Loc 0"}
+{"role": "user", "content": "what can i do here"}
+{"role": "assistant", "content": "AR; Rqt Rqt 0 Act Loc"}
+{"role": "user", "content": "prepare meal"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "use refrigerator"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "use fan"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "use oven"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "use stove"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "i would like to wash sheets"}
+{"role": "assistant", "content": "DA; 0 0 0 0 Act Obj"}
+{"role": "user", "content": "i would like to watch television"}
+{"role": "assistant", "content": "DA; 0 0 0 0 Act Obj"}
+{"role": "user", "content": "wash sheets"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "wash clothes"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "cook dinner"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "i would like to cook dinner"}
+{"role": "assistant", "content": "DA; 0 0 0 0 Act Obj"}
+{"role": "user", "content": "where is the coffee"}
+{"role": "assistant", "content": "DA; Rqt 0 0 Obj"}
+{"role": "user", "content": "rewind video"}
+{"role": "assistant", "content": "RV; Act Obj"}
+{"role": "user", "content": "forward"}
+{"role": "assistant", "content": "FF; Act"}
+{"role": "user", "content": "pause video"}
+{"role": "assistant", "content": "PV; Act Obj"}
+{"role": "user", "content": "skip"}
+{"role": "assistant", "content": "FF; Act"}
+{"role": "user", "content": "rewind"}
+{"role": "assistant", "content": "RV; Act"}
+{"role": "user", "content": "pause"}
+{"role": "assistant", "content": "PV; Act"}
+{"role": "user", "content": "fast forward"}
+{"role": "assistant", "content": "FF; 0 Act"}
+{"role": "user", "content": "play video"}
+{"role": "assistant", "content": "SV; Act Obj"}
+{"role": "user", "content": "resume"}
+{"role": "assistant", "content": "SV; Act"}
+{"role": "user", "content": "resume video"}
+{"role": "assistant", "content": "SV; Act Obj"}
+{"role": "user", "content": "negative"}
+{"role": "assistant", "content": "SN; Neg"}
+{"role": "user", "content": "positive"}
+{"role": "assistant", "content": "SN; Pos"}
+{"role": "user", "content": "yes"}
+{"role": "assistant", "content": "SN; Pos"}
+{"role": "user", "content": "no"}
+{"role": "assistant", "content": "SN; Neg"}
+{"role": "user", "content": "yes"}
+{"role": "assistant", "content": "SN; Pos"}
+{"role": "user", "content": "no"}
+{"role": "assistant", "content": "SN; Neg"}
+{"role": "user", "content": "shutdown app"}
+{"role": "assistant", "content": "SD; Act Obj"}
+{"role": "user", "content": "shut"}
+{"role": "assistant", "content": "SD; Act"}
+{"role": "user", "content": "hello"}
+{"role": "assistant", "content": "; Trigger"}
+{"role": "user", "content": "shut down app"}
+{"role": "assistant", "content": "SD; Act Act Obj"}
+{"role": "user", "content": "shut"}
+{"role": "assistant", "content": "SD; Act"}
+{"role": "user", "content": "negative"}
+{"role": "assistant", "content": "SN; Neg"}
+{"role": "user", "content": "positive"}
+{"role": "assistant", "content": "SN; Pos"}
+{"role": "user", "content": "correct"}
+{"role": "assistant", "content": "SN; Pos"}
+{"role": "user", "content": "incorrect"}
+{"role": "assistant", "content": "SN; Neg"}
+{"role": "user", "content": "fake"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "false"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "nay"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "wrong"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "yay"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "genuine"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "true"}
+{"role": "assistant", "content": "SN; 0"}
+{"role": "user", "content": "right"}
+{"role": "assistant", "content": "SN; Act"}
+{"role": "user", "content": "correct"}
+{"role": "assistant", "content": "SN; Pos"}
+{"role": "user", "content": "incorrect"}
+{"role": "assistant", "content": "SN; Neg"}
+{"role": "user", "content": "i want to make coffee"}
+{"role": "assistant", "content": "DA; 0 Rqt 0 Act Obj"}
+{"role": "user", "content": "where am i"}
+{"role": "assistant", "content": "LR; Rqt Loc 0"}
+{"role": "user", "content": "start camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "stop camera"}
+{"role": "assistant", "content": "CC; 0 Obj"}
+{"role": "user", "content": "open camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "close camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "start camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "disengage"}
+{"role": "assistant", "content": "CC; 0"}
+{"role": "user", "content": "display"}
+{"role": "assistant", "content": "CC; 0"}
+{"role": "user", "content": "start camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "stop camera"}
+{"role": "assistant", "content": "CC; 0 Obj"}
+{"role": "user", "content": "open camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "close camera"}
+{"role": "assistant", "content": "CC; Act Obj"}
+{"role": "user", "content": "i would like to wash sheets"}
+{"role": "assistant", "content": "DA; 0 0 0 0 Act Obj"}
+{"role": "user", "content": "i would like to watch television"}
+{"role": "assistant", "content": "DA; 0 0 0 0 Act Obj"}
+{"role": "user", "content": "wash sheets"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "wash clothes"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "cook dinner"}
+{"role": "assistant", "content": "DA; Act Obj"}
+{"role": "user", "content": "i would like to cook dinner"}
+{"role": "assistant", "content": "DA; 0 0 0 0 Act Obj"}
+{"role": "user", "content": "where is the coffee"}
+{"role": "assistant", "content": "DA; Rqt 0 0 Obj"}
+{"role": "user", "content": "rewind video"}
+{"role": "assistant", "content": "RV; Act Obj"}
+{"role": "user", "content": "pause video"}
+{"role": "assistant", "content": "PV; Act Obj"}
+{"role": "user", "content": "skip forward"}
+{"role": "assistant", "content": "FF; Act Act"}
+{"role": "user", "content": "shut down"}
+{"role": "assistant", "content": "SD; Act Act"}
+{"role": "user", "content": "turn off"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": "return home"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": "shutdown"}
+{"role": "assistant", "content": "SD; Act"}
+{"role": "user", "content": "power off"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": "shut down system"}
+{"role": "assistant", "content": "SD; Act Act 0"}
+{"role": "user", "content": "system disable"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": "disengage"}
+{"role": "assistant", "content": "SD; 0"}
+{"role": "user", "content": "what can I do here"}
+{"role": "assistant", "content": "AR; Rqt Rqt 0 Act Loc"}
+{"role": "user", "content": "activites"}
+{"role": "assistant", "content": "AR; 0"}
+{"role": "user", "content": "what activites are available"}
+{"role": "assistant", "content": "AR; Rqt 0 0 0"}
+{"role": "user", "content": "what activites are available at this location"}
+{"role": "assistant", "content": "AR; Rqt 0 0 0 0 0 Loc"}
+{"role": "user", "content": "what can I interactive with"}
+{"role": "assistant", "content": "AR; Rqt Rqt 0 0 0"}
+{"role": "user", "content": "what can I make"}
+{"role": "assistant", "content": "AR; Rqt Rqt 0 Act"}
+{"role": "user", "content": "is there water here"}
+{"role": "assistant", "content": "AR; 0 0 0 Loc"}
+{"role": "user", "content": "what is here"}
+{"role": "assistant", "content": "AR; Rqt 0 Loc"}
+{"role": "user", "content": "where am I"}
+{"role": "assistant", "content": "LR; Rqt Loc 0"}
+{"role": "user", "content": "where am I currently at"}
+{"role": "assistant", "content": "LR; Rqt Loc 0 0 0"}
+{"role": "user", "content": "what is here"}
+{"role": "assistant", "content": "AR; Rqt 0 Loc"}
+{"role": "user", "content": "where am is the kitchen"}
+{"role": "assistant", "content": "NAV; Rqt Loc 0 0 Loc"}
+{"role": "user", "content": "where am I currently at"}
+{"role": "assistant", "content": "LR; Rqt Loc 0 0 0"}
+{"role": "user", "content": "am I currently in the kitchen"}
+{"role": "assistant", "content": "LR; Loc 0 0 0 0 Loc"}
+{"role": "user", "content": "am I currently in the bedroom"}
+{"role": "assistant", "content": "LR; Loc 0 0 0 0 Loc"}
+{"role": "user", "content": "am I currently in the bathroom"}
+{"role": "assistant", "content": "LR; Loc 0 0 0 0 Loc"}
+{"role": "user", "content": "where am I at"}
+{"role": "assistant", "content": "LR; Rqt Loc 0 0"}
+{"role": "user", "content": "can you tell me where I am"}
+{"role": "assistant", "content": "LR; Rqt 0 0 0 Rqt 0 Loc"}
+{"role": "user", "content": "i need to know my current position"}
+{"role": "assistant", "content": "LR; 0 0 0 0 0 0 0"}
+{"role": "user", "content": "location"}
+{"role": "assistant", "content": "LR; Loc"}
+{"role": "user", "content": "position"}
+{"role": "assistant", "content": "LR; 0"}
+{"role": "user", "content": "where"}
+{"role": "assistant", "content": "LR; Rqt"}
+{"role": "user", "content": "activities"}
+{"role": "assistant", "content": "AR; 0"}
+{"role": "user", "content": "do here"}
+{"role": "assistant", "content": "AR; Act Loc"}
+{"role": "user", "content": "available"}
+{"role": "assistant", "content": "AR; 0"}
+{"role": "user", "content": "coffee"}
+{"role": "assistant", "content": "DA; Obj"}
+{"role": "user", "content": "cook"}
+{"role": "assistant", "content": "DA; Act"}
+{"role": "user", "content": "diswasher"}
+{"role": "assistant", "content": "DA; 0"}
+{"role": "user", "content": "go to the living room"}
+{"role": "assistant", "content": "NAV; Act 0 0 Loc Loc"}
+{"role": "user", "content": "go to kitchen"}
+{"role": "assistant", "content": "NAV; Act 0 Loc"}
+{"role": "user", "content": "can I go to the living room"}
+{"role": "assistant", "content": "NAV; Rqt 0 Act 0 0 Loc Loc"}
+{"role": "user", "content": "take me to the sunroom"}
+{"role": "assistant", "content": "NAV; 0 0 0 0 Loc"}
+{"role": "user", "content": "kitchen to bathroom"}
+{"role": "assistant", "content": "NAV; Loc 0 Loc"}
+{"role": "user", "content": "move to garage"}
+{"role": "assistant", "content": "NAV; Act 0 Loc"}
+{"role": "user", "content": "i want to go to the kitchen"}
+{"role": "assistant", "content": "NAV; 0 Rqt 0 Act 0 0 Loc"}
+{"role": "user", "content": "how do i get to the bathroom"}
+{"role": "assistant", "content": "NAV; 0 Act 0 0 0 0 Loc"}
+{"role": "user", "content": "where is the bathroom"}
+{"role": "assistant", "content": "NAV; Rqt 0 0 Loc"}
+{"role": "user", "content": "i am lost take me to the livingroom"}
+{"role": "assistant", "content": "NAV; 0 Loc 0 0 0 0 0 Loc"}
+{"role": "user", "content": "help me find the kitchen"}
+{"role": "assistant", "content": "NAV; 0 0 Act 0 Loc"}
+{"role": "user", "content": "help me to the bedroom"}
+{"role": "assistant", "content": "NAV; 0 0 0 0 Loc"}
+{"role": "user", "content": "what activites are available here"}
+{"role": "assistant", "content": "AR; Rqt 0 0 0 Loc"}
+{"role": "user", "content": "what activity\u2019s can I do here"}
+{"role": "assistant", "content": "AR; Rqt 0 Rqt 0 Act Loc"}
+{"role": "user", "content": "Am i able to complete a task here"}
+{"role": "assistant", "content": "AR; 0 0 0 0 0 0 0 Loc"}
+{"role": "user", "content": "What activities are here"}
+{"role": "assistant", "content": "AR; 0 0 0 Loc"}
+{"role": "user", "content": "What options do I have"}
+{"role": "assistant", "content": "AR; 0 0 Act 0 0"}
+{"role": "user", "content": "What\u2019s happening here"}
+{"role": "assistant", "content": "AR; 0 0 Loc"}
+{"role": "user", "content": "What are some activities that you offer"}
+{"role": "assistant", "content": "AR; 0 0 0 0 0 0 0"}
+{"role": "user", "content": "where am I at"}
+{"role": "assistant", "content": "LR; Rqt Loc 0 0"}
+{"role": "user", "content": "can I eat in the kitchen"}
+{"role": "assistant", "content": "LR; Rqt 0 0 0 0 Loc"}
+{"role": "user", "content": "I don't know where I am, can you help me"}
+{"role": "assistant", "content": "LR; 0 0 0 Rqt 0 0 Rqt 0 0 0"}
+{"role": "user", "content": "What\u2019s my current address "}
+{"role": "assistant", "content": "LR; 0 0 0 0 0"}
+{"role": "user", "content": "Where are you"}
+{"role": "assistant", "content": "LR; 0 0 0"}
+{"role": "user", "content": "Location please"}
+{"role": "assistant", "content": "LR; 0 0"}
+{"role": "user", "content": "Do you know what my location is"}
+{"role": "assistant", "content": "LR; 0 0 0 Rqt 0 Loc 0"}
+{"role": "user", "content": "open the camera"}
+{"role": "assistant", "content": "CC; Act 0 Obj"}
+{"role": "user", "content": "where am I at"}
+{"role": "assistant", "content": "CC; Rqt Loc 0 0"}
+{"role": "user", "content": "Open the camera for me"}
+{"role": "assistant", "content": "CC; 0 0 Obj 0 0"}
+{"role": "user", "content": "Open camera app"}
+{"role": "assistant", "content": "CC; 0 Obj Obj"}
+{"role": "user", "content": "Open the camera"}
+{"role": "assistant", "content": "CC; 0 0 Obj"}
+{"role": "user", "content": "Bring up the camera"}
+{"role": "assistant", "content": "CC; 0 Act 0 Obj"}
+{"role": "user", "content": "Activate the camera"}
+{"role": "assistant", "content": "CC; 0 0 Obj"}
+{"role": "user", "content": "Turn on camera"}
+{"role": "assistant", "content": "CC; 0 0 Obj"}
+{"role": "user", "content": "Take a picture "}
+{"role": "assistant", "content": "CC; 0 0 0 0"}
+{"role": "user", "content": "turn the camera off"}
+{"role": "assistant", "content": "CC; 0 0 Obj 0"}
+{"role": "user", "content": "Close the camera for me"}
+{"role": "assistant", "content": "CC; 0 0 Obj 0 0"}
+{"role": "user", "content": "Close camera app"}
+{"role": "assistant", "content": "CC; 0 Obj Obj"}
+{"role": "user", "content": "Shut down the camera"}
+{"role": "assistant", "content": "CC; 0 Act 0 Obj"}
+{"role": "user", "content": "Turn off the camera"}
+{"role": "assistant", "content": "CC; 0 0 0 Obj"}
+{"role": "user", "content": "Turn off camera"}
+{"role": "assistant", "content": "CC; 0 0 Obj"}
+{"role": "user", "content": "can i return to home"}
+{"role": "assistant", "content": "SD; Rqt 0 0 0 0"}
+{"role": "user", "content": "Close this app"}
+{"role": "assistant", "content": "SD; 0 0 Obj"}
+{"role": "user", "content": "Return to home page "}
+{"role": "assistant", "content": "SD; 0 0 0 0 0"}
+{"role": "user", "content": "Good night"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": "Thank you "}
+{"role": "assistant", "content": "SD; 0 0 0"}
+{"role": "user", "content": "Exit"}
+{"role": "assistant", "content": "SD; 0"}
+{"role": "user", "content": "Turn off assistant"}
+{"role": "assistant", "content": "SD; 0 0 0"}
+{"role": "user", "content": "Deactivate assistance"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": "Go home"}
+{"role": "assistant", "content": "SD; 0 0"}
+{"role": "user", "content": " Return home"}
+{"role": "assistant", "content": "SD; 0 0 0"}
+{"role": "user", "content": "Go to the home page"}
+{"role": "assistant", "content": "SD; 0 0 0 0 0"}
+{"role": "user", "content": "pause the video"}
+{"role": "assistant", "content": "PV; Act 0 Obj"}
+{"role": "user", "content": "Stop the video"}
+{"role": "assistant", "content": "PV; 0 0 Obj"}
+{"role": "user", "content": "Pause"}
+{"role": "assistant", "content": "PV; 0"}
+{"role": "user", "content": "Freeze video"}
+{"role": "assistant", "content": "PV; 0 Obj"}
+{"role": "user", "content": "Stop video"}
+{"role": "assistant", "content": "PV; 0 Obj"}
+{"role": "user", "content": "Freeze video"}
+{"role": "assistant", "content": "PV; 0 Obj"}
+{"role": "user", "content": "Press pause"}
+{"role": "assistant", "content": "PV; 0 Act"}
+{"role": "user", "content": "can you start the video"}
+{"role": "assistant", "content": "SV; Rqt 0 Act 0 Obj"}
+{"role": "user", "content": "Resume the video"}
+{"role": "assistant", "content": "SV; 0 0 Obj"}
+{"role": "user", "content": "Play"}
+{"role": "assistant", "content": "SV; 0"}
+{"role": "user", "content": "Play video"}
+{"role": "assistant", "content": "SV; 0 Obj"}
+{"role": "user", "content": "Continue video"}
+{"role": "assistant", "content": "SV; 0 Obj"}
+{"role": "user", "content": "Unfreeze video"}
+{"role": "assistant", "content": "SV; 0 Obj"}
+{"role": "user", "content": "Replay video"}
+{"role": "assistant", "content": "SV; 0 Obj"}
+{"role": "user", "content": "Play video "}
+{"role": "assistant", "content": "SV; 0 Obj 0"}
+{"role": "user", "content": "Press play "}
+{"role": "assistant", "content": "SV; 0 Act 0"}
+{"role": "user", "content": "play it back"}
+{"role": "assistant", "content": "RV; Act 0 0"}
+{"role": "user", "content": "Go back a few seconds"}
+{"role": "assistant", "content": "RV; 0 0 0 0 0"}
+{"role": "user", "content": "Turn back video"}
+{"role": "assistant", "content": "RV; 0 0 Obj"}
+{"role": "user", "content": "Reverse video"}
+{"role": "assistant", "content": "RV; 0 Obj"}
+{"role": "user", "content": "Restart video"}
+{"role": "assistant", "content": "RV; 0 Obj"}
+{"role": "user", "content": "Go back on the video"}
+{"role": "assistant", "content": "RV; 0 0 0 0 Obj"}
+{"role": "user", "content": "Go back"}
+{"role": "assistant", "content": "RV; 0 0"}
+{"role": "user", "content": "Minus 15 seconds "}
+{"role": "assistant", "content": "RV; 0 0 0 0"}
+{"role": "user", "content": "skip forward in the video"}
+{"role": "assistant", "content": "FF; Act Act 0 0 Obj"}
+{"role": "user", "content": "Next video"}
+{"role": "assistant", "content": "FF; 0 Obj"}
+{"role": "user", "content": "Fast forward "}
+{"role": "assistant", "content": "FF; 0 Act 0"}
+{"role": "user", "content": "Skip video"}
+{"role": "assistant", "content": "FF; 0 Obj"}
+{"role": "user", "content": "Pass video"}
+{"role": "assistant", "content": "FF; 0 Obj"}
+{"role": "user", "content": "Speed up video"}
+{"role": "assistant", "content": "FF; 0 Act Obj"}
+{"role": "user", "content": "Skip"}
+{"role": "assistant", "content": "FF; 0"}
+{"role": "user", "content": "Skip forward 30 seconds "}
+{"role": "assistant", "content": "FF; 0 Act 0 0 0"}
+{"role": "user", "content": "Go forward"}
+{"role": "assistant", "content": "FF; 0 Act"}
+{"role": "user", "content": "i need help making a sandwich"}
+{"role": "assistant", "content": "DA; 0 0 0 0 0 0"}
+{"role": "user", "content": "How do I use the microwave?"}
+{"role": "assistant", "content": "DA; 0 Act 0 Act 0 0"}
+{"role": "user", "content": "How do I make coffee "}
+{"role": "assistant", "content": "DA; 0 Act 0 Act Obj 0"}
+{"role": "user", "content": "How do I cook an egg"}
+{"role": "assistant", "content": "DA; 0 Act 0 Act 0 0"}
+{"role": "user", "content": "How do I do this"}
+{"role": "assistant", "content": "DA; 0 Act 0 Act 0"}
+{"role": "user", "content": "i need to go to the livingroom"}
+{"role": "assistant", "content": "NAV; 0 0 0 Act 0 0 Loc"}
+{"role": "user", "content": "Take me to the garden"}
+{"role": "assistant", "content": "NAV; 0 0 0 0 0"}
+{"role": "user", "content": "Lead me to the bathroom "}
+{"role": "assistant", "content": "NAV; 0 0 0 0 Loc 0"}
+{"role": "user", "content": "Locate living room "}
+{"role": "assistant", "content": "NAV; 0 Loc Loc 0"}
+{"role": "user", "content": "Take me to the living room"}
+{"role": "assistant", "content": "NAV; 0 0 0 0 Loc Loc"}
